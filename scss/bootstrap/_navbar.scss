@@ -438,7 +438,6 @@
   }
 
   .navbar-toggle {
-    border-color: $navbar-default-toggle-border-color;
     &:hover,
     &:focus {
       background-color: $navbar-default-toggle-hover-bg;
@@ -687,6 +686,7 @@
 
   .navbar-nav {
     > li > a {
+
       color: $navbar-inverse-link-color;
       &:hover,
       &:focus {
@@ -700,7 +700,6 @@
       &:focus {
         font-weight: 600;
         color: $navbar-inverse-link-active-color;
-        background: lighten($brand-secondary, 5%);
       }
     }
     > .disabled > a {
@@ -726,7 +725,7 @@
       &:hover:after,
       &:focus:after, {
         width: 100%;
-        background: lighten($brand-secondary, 25%);
+        background: lighten($brand-secondary, 60%);
       }
     }
    
@@ -823,4 +822,4 @@
 }
 
 
-.brand-logo { margin-right: 40px;}
+.brand-logo { margin-right: 30px;}

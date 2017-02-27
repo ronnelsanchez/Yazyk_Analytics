@@ -114,3 +114,63 @@ padding: 40px 0 25px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+#right-nav{
+  margin:5px 0;
+}
+
+.new-project-nav{
+    margin: 6px 10px;
+}
+
+.user-nav{
+    display: inline-block;
+    width: 100%;
+}
+
+.user-nav > a{
+   display: inline-block;
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.user-avatar{
+  margin-right: 15px;
+}
+
+.user-avatar > i {
+   margin-top: 14px;
+}
+
+.user-details{
+  display: inline-block;
+}
+
+.user-company{
+  text-transform: none;
+}
+
+.user-email{
+  text-transform: none;
+}
+
+.section-title{
+    margin-bottom: 40px;
+    padding: 5px 0;
+    margin-bottom: 20px;
+
+}
+
+.in-progress{
+  color: #FBC02D;
+  border-bottom: 1px solid #FBC02D;
+}
+
+.highlight-bar{
+      height: 5px;
+    width: 100px;
+    position: absolute;
+    border-bottom: 5px solid #FBC02D;
+}
+

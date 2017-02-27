@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -10,7 +10,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Dashboard Template for Bootstrap</title>
+    <title>My Projects | Yazyk Analytics Dashboard</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/yazyk-ronnelsanchez.css" rel="stylesheet">
@@ -43,7 +43,6 @@
                 <span class="icon-bar"></span>
               </button>
              <img class="brand-logo" width="125" src="images/yzalogo.jpg">
-            <button class="btn btn-primary btn-lg hidden-sm hidden-md hidden-lg pull-right">New Project</button>
             </div>
         
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -59,9 +58,36 @@
                   <a href="#">Profile</a>
                 </li>
               </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li><button class="btn btn-primary btn-lg hidden-xs">New Project</button></li>
-                <li><img width="40" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle"></li>
+              <ul id="right-nav" class="nav navbar-nav navbar-right">
+               <li class="nav-divider"></li>
+                <li>
+                  <button class="btn btn-primary btn-lg hidden-xs new-project-nav">New Project</button>
+                  <button class="btn btn-primary btn-lg hidden-sm hidden-md hidden-lg btn-block">New Project</button>
+                </li>
+               <li class="nav-divider"></li>
+                <li>
+                  <div class="user-nav dropdown">
+                    <a data-toggle="dropdown" href="#">
+                      <div class="user-avatar pull-left">
+                        <img width="40" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                        <i class="fa fa-fw pull-right hidden-xs" aria-hidden="true"></i>
+                      </div>
+                      <div class="user-details dropdown hidden-sm hidden-md hidden-lg">
+                        <div class="user-company">
+                          <strong>Ronnel Sanchez</strong>
+                          <i class="fa fa-fw pull-right" aria-hidden="true"></i>
+                        </div>
+                        <div class="user-email">ronnel.sanchez@gmail.com</div>
+                      </div>
+
+                    </a>
+                                          <ul class="dropdown-menu">
+                        <li><a href="#">View Profile</a></li>
+                        <li class="nav-divider"></li>
+                        <li><a href="#">Log Out</a></li>
+                      </ul>
+                  </div>
+                </li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div>
@@ -116,7 +142,7 @@
 
             </div>
           </div>
-             <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav hidden-xs">
             <li class="active">
               <a href="#">Hire Translator</a>
             </li>
@@ -128,7 +154,33 @@
             </li>
           </ul>
        </div>
-
+<div class="container-fluid hidden-sm hidden-md hidden-lg text-center" style="
+    background-color: #003c6b;
+">
+          <a data-toggle="collapse" href="#collapseExample" class="collapsed" aria-expanded="false" style="
+    padding: 15px 10px;
+    display: block;
+">
+        
+                 <span style="
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+">Hire Translator <i class="fa fa-fw pull-right" aria-hidden="true" style="margin-left: -16px;"></i></span>
+        
+          </a>
+            <div class="collapse" id="collapseExample" aria-expanded="false" style="height: 0px;    border-top: 1px solid #01579b;">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="#">Management</a>
+                </li>
+                <li>
+                  <a href="#">Project Details</a>
+                </li>
+               </ul>
+            </div>
+          </div>
          
         </div>
       </nav>
@@ -137,6 +189,12 @@
     <main>
       <div class="container">
         <div class="row">
+        <div class="col-xs-12">
+          <div class="section-title in-progress">
+            <h2 class="h3">In Progress</h2>
+            <div class="highlight-bar"></div>
+          </div>
+        </div>
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="thumbnail"> 
               <div class="caption"> 
