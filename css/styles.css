@@ -207,15 +207,15 @@ font-size: 14px;
 }
 
 .in-progress{
-  color: #FBC02D;
-  border-bottom: 1px solid #FBC02D;
+  color: #00E676;
+  border-bottom: 1px solid #00E676;
 }
 
-.highlight-bar{
-      height: 5px;
+.in-progress-bar{
+    height: 5px;
     width: 100px;
     position: absolute;
-    border-bottom: 5px solid #FBC02D;
+    border-bottom: 5px solid #00E676;
 }
 
 .left-content, .main-content{
@@ -322,16 +322,17 @@ margin:10px 0;
 }
 
 .pm-project-list > li > a:hover,.pm-project-list > li.active > a{
-background-color: #ffffff;
-color: #333333;
+background-color: #01579B;
+color: #ffffff;
 }
 
 #manangement-bar{
   box-shadow: -3px 3px 4px rgba(0,0,0,.2);
   background-color: #ffffff;
-  padding: 0;
+  padding:0px;
 }
 
-.pm-manangement-banner{
-
+.pm-manangement-status{
+  padding-top: 40px;
+  text-align: center;
 }

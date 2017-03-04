@@ -16,7 +16,6 @@
     <link href="css/yazyk-ronnelsanchez.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="css/styles.css" rel="stylesheet">
 
 
@@ -320,54 +319,36 @@
                 <div class="heading">
                   <h3>Japanese content for Promo</h3>
                   <h5>Company Name</h5>
+                  <span class="label label-success">in progress</span>
                 </div>
-                <ul class="list-inline list-unstyled">
-                                <li><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Item</li>
-                                <li><div class="divider"></div></li>
-                                <li><i class="fa fa-money " aria-hidden="true"></i> Item</li>
-                              </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
-               <div class="">
-               <span class="label label-warning">in progress</span>
-                  <button class="btn btn-outline-default btn-lg btn-change-status"><i class="fa fa-pause" aria-hidden="true"></i>Change Project Status</button>
+               <div class="pm-manangement-status">
+                 <ul class="list-inline list-unstyled">
+                  <li><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Item</li>
+                  <li><div class="divider"></div></li>
+                  <li><i class="fa fa-money " aria-hidden="true"></i> Item</li>
+                </ul>
+                  <button class="btn btn-outline-default btn-sm btn-change-status" data-toggle="modal" data-target="#changeStatus">
+                    <i class="fa fa-pause" aria-hidden="true"></i>Project Status
+                  </button>
               </div>
             </div>
           </div>
           <ul id="sub-nav" class="nav nav-tabs-secondary hidden-xs">
             <li class="active">
-              <a data-toggle="tab" href="#htTab">Hire Translator</a>
-            </li>
-            <li>
               <a data-toggle="tab" href="#mTab">Management</a>
             </li>
             <li>
-              <a data-toggle="tab" href="#pdTab">Project Details</a>
+              <a data-toggle="tab" href="pdTab">Project Details</a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#cpTab">Company Profile</a>
             </li>
 
           </ul>
        </div>
-         <div id="res-sub-nav" class="container-fluid hidden-sm hidden-md hidden-lg text-center">
-            <a data-toggle="collapse" href="#collapseSubNav" class="collapsed" aria-expanded="false">
-              <span>Menu<i class="fa fa-fw pull-right" aria-hidden="true"></i></span>
-            </a>
-              <div class="collapse" id="collapseSubNav" aria-expanded="false" style="height: 0px;">
-                <ul class="nav navbar-nav">
-                 <li>
-               <a data-toggle="tab" href="#htTab">Hire Translator</a>
-                  </li>
-                  <li>
-               <a data-toggle="tab" href="#mTab">Management</a>
-                  </li>
-                  <li>
-                <a data-toggle="tab" href="#pdTab">Project Details</a>
-                  </li>
-         
-                 </ul>
-                 <button class="btn btn-outline-default btn-lg btn-block res-btn-change-status"><i class="fa fa-pause" aria-hidden="true"></i>Change Project Status</button>
-              </div>
-          </div>
     </nav>
      
   </div>
@@ -377,10 +358,70 @@
       </div>
     </main>
 
+<!-- Change Project Status Modal -->
+<div class="modal fade" id="changeStatus" tabindex="-1" role="dialog" aria-labelledby="changeStatus">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Project Status</h4>
+      </div>
+      <div class="modal-body text-center">
+          <h3>Japanese content for Promo  <span class="label label-success">in progress</span></h3>
+          <hr>
+          <p>
+          <span>Note: Changing project status will take effect automatically.</span>
+          <br /><br />
+            <select class="selectpicker testing dropAuto" >
+              <option value="start-project" data-icon="fa fa-play">Start and In Progress</option>
+              <option value="pause-project" data-icon="fa fa-pause">Pause this Project</option>
+              <option value="stop-project" data-icon="fa fa-stop">Stop the Project</option>
+            </select>
+          </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script>
+     var firstSP =  $('.selectpicker').val();
+      console.log('firstSP ',firstSP);
+
+    if(firstSP == "start-project"){
+      $('.selectpicker').selectpicker('setStyle', 'btn-warning btn-danger', 'remove');
+      $('.selectpicker').selectpicker('setStyle', 'btn-success');
+    }else if (firstSP == "pause-project") {
+      $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
+      $('.selectpicker').selectpicker('setStyle', 'btn-warning');    
+    }else if (firstSP == "stop-project") {
+      $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
+      $('.selectpicker').selectpicker('setStyle', 'btn-danger');    
+    }
+
+$('.selectpicker').on('changed.bs.select', function () {
+       var sp =  $('.selectpicker').val();
+
+     console.log('second ',sp);
+    if(sp == "start-project"){
+      $('.selectpicker').selectpicker('setStyle', 'btn-warning btn-danger', 'remove');
+      $('.selectpicker').selectpicker('setStyle', 'btn-success');
+    }else if (sp == "pause-project") {
+      $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
+      $('.selectpicker').selectpicker('setStyle', 'btn-warning');    
+    }else if (sp == "stop-project") {
+      $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
+      $('.selectpicker').selectpicker('setStyle', 'btn-danger');    
+    }
+});
+    </script>
   </body>
 </html>
