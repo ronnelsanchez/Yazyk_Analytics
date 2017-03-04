@@ -29,14 +29,23 @@ legend {
   border-bottom: 1px solid $legend-border-color;
 }
 
-label,.legend {
+label{
   display: inline-block;
   max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
   margin-bottom:10px;
   font-weight: 600;
+  font-size: $font-size-base;
+}
+
+.label-title{
+  display: inline-block;
+  max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
+  font-weight: 600;
   text-transform: uppercase;
   font-size: $font-size-small;
 }
+
+
 
 
 // Normalize form controls
@@ -120,7 +129,7 @@ output {
   padding: $padding-base-vertical $padding-base-horizontal;
   font-size: $font-size-base;
   line-height: $line-height-base;
-  color: $input-color;
+  color: $text-color;
   background-color: $input-bg;
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   border: 1px solid $input-border;

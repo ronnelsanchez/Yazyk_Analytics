@@ -6089,7 +6089,7 @@ kbd {
   font-size: 90%;
   color: #fff;
   background-color: #333;
-  border-radius: 4px;
+  border-radius: 2px;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -7435,23 +7435,31 @@ legend {
 }
 
 /* line 32, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
-label, .legend {
+label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* line 40, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+.label-title {
+  display: inline-block;
+  max-width: 100%;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 12px;
 }
 
-/* line 49, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 58, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 input[type="search"] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 54, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 63, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 input[type="radio"],
 input[type="checkbox"] {
   margin: 4px 0 0;
@@ -7459,24 +7467,24 @@ input[type="checkbox"] {
   line-height: normal;
 }
 
-/* line 61, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 70, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 input[type="file"] {
   display: block;
 }
 
-/* line 66, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 75, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 input[type="range"] {
   display: block;
   width: 100%;
 }
 
-/* line 72, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 81, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 select[multiple],
 select[size] {
   height: auto;
 }
 
-/* line 78, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 87, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
@@ -7484,7 +7492,7 @@ input[type="checkbox"]:focus {
   outline-offset: -2px;
 }
 
-/* line 85, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 94, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 output {
   display: block;
   padding-top: 7px;
@@ -7493,7 +7501,7 @@ output {
   color: #90A4AE;
 }
 
-/* line 116, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 125, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-control {
   display: block;
   width: 100%;
@@ -7501,7 +7509,7 @@ output {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857;
-  color: #90A4AE;
+  color: #455A64;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
@@ -7533,44 +7541,44 @@ output {
   color: #999;
 }
 
-/* line 137, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 146, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-control::-ms-expand {
   border: 0;
   background-color: transparent;
 }
 
-/* line 147, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 156, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-control[disabled], .form-control[readonly],
 fieldset[disabled] .form-control {
   background-color: #CFD8DC;
   opacity: 1;
 }
 
-/* line 154, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 163, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-control[disabled],
 fieldset[disabled] .form-control {
   cursor: not-allowed;
 }
 
-/* line 163, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 172, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 textarea.form-control {
   height: auto;
 }
 
-/* line 175, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 184, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 input[type="search"] {
   -webkit-appearance: none;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  /* line 194, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 203, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   input[type="date"].form-control,
   input[type="time"].form-control,
   input[type="datetime-local"].form-control,
   input[type="month"].form-control {
     line-height: 34px;
   }
-  /* line 198, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 207, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   input[type="date"].input-sm, .input-group-sm > input[type="date"].form-control,
   .input-group-sm > input[type="date"].input-group-addon,
   .input-group-sm > .input-group-btn > input[type="date"].btn,
@@ -7595,7 +7603,7 @@ input[type="search"] {
   input[type="month"] {
     line-height: 30px;
   }
-  /* line 203, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 212, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   input[type="date"].input-lg, .input-group-lg > input[type="date"].form-control,
   .input-group-lg > input[type="date"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="date"].btn,
@@ -7622,12 +7630,12 @@ input[type="search"] {
   }
 }
 
-/* line 216, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 225, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-group {
   margin-bottom: 15px;
 }
 
-/* line 225, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 234, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .radio,
 .checkbox {
   position: relative;
@@ -7636,7 +7644,7 @@ input[type="search"] {
   margin-bottom: 10px;
 }
 
-/* line 232, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 241, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .radio label,
 .checkbox label {
   min-height: 20px;
@@ -7646,7 +7654,7 @@ input[type="search"] {
   cursor: pointer;
 }
 
-/* line 240, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 249, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .radio input[type="radio"],
 .radio-inline input[type="radio"],
 .checkbox input[type="checkbox"],
@@ -7656,13 +7664,13 @@ input[type="search"] {
   margin-top: 4px \9;
 }
 
-/* line 249, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 258, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .radio + .radio,
 .checkbox + .checkbox {
   margin-top: -5px;
 }
 
-/* line 255, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 264, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .radio-inline,
 .checkbox-inline {
   position: relative;
@@ -7674,14 +7682,14 @@ input[type="search"] {
   cursor: pointer;
 }
 
-/* line 265, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 274, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .radio-inline + .radio-inline,
 .checkbox-inline + .checkbox-inline {
   margin-top: 0;
   margin-left: 10px;
 }
 
-/* line 277, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 286, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 input[type="radio"][disabled], input[type="radio"].disabled,
 fieldset[disabled] input[type="radio"],
 input[type="checkbox"][disabled],
@@ -7691,7 +7699,7 @@ input[type="checkbox"] {
   cursor: not-allowed;
 }
 
-/* line 286, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 295, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .radio-inline.disabled,
 fieldset[disabled] .radio-inline,
 .checkbox-inline.disabled,
@@ -7700,7 +7708,7 @@ fieldset[disabled]
   cursor: not-allowed;
 }
 
-/* line 296, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 305, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .radio.disabled label,
 fieldset[disabled] .radio label,
 .checkbox.disabled label,
@@ -7709,7 +7717,7 @@ fieldset[disabled]
   cursor: not-allowed;
 }
 
-/* line 308, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 317, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-control-static {
   padding-top: 7px;
   padding-bottom: 7px;
@@ -7717,7 +7725,7 @@ fieldset[disabled]
   min-height: 34px;
 }
 
-/* line 316, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 325, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-control-static.input-lg, .input-group-lg > .form-control-static.form-control,
 .input-group-lg > .form-control-static.input-group-addon,
 .input-group-lg > .input-group-btn > .form-control-static.btn, .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control,
@@ -7757,7 +7765,7 @@ select[multiple].input-sm,
   height: auto;
 }
 
-/* line 334, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 343, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-group-sm .form-control {
   height: 30px;
   padding: 5px 10px;
@@ -7766,19 +7774,19 @@ select[multiple].input-sm,
   border-radius: 4px;
 }
 
-/* line 341, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 350, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-group-sm select.form-control {
   height: 30px;
   line-height: 30px;
 }
 
-/* line 345, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 354, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-group-sm textarea.form-control,
 .form-group-sm select[multiple].form-control {
   height: auto;
 }
 
-/* line 349, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 358, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-group-sm .form-control-static {
   height: 30px;
   min-height: 32px;
@@ -7817,7 +7825,7 @@ select[multiple].input-lg,
   height: auto;
 }
 
-/* line 360, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 369, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-group-lg .form-control {
   height: 46px;
   padding: 10px 16px;
@@ -7826,19 +7834,19 @@ select[multiple].input-lg,
   border-radius: 4px;
 }
 
-/* line 367, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 376, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-group-lg select.form-control {
   height: 46px;
   line-height: 46px;
 }
 
-/* line 371, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 380, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-group-lg textarea.form-control,
 .form-group-lg select[multiple].form-control {
   height: auto;
 }
 
-/* line 375, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 384, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-group-lg .form-control-static {
   height: 46px;
   min-height: 38px;
@@ -7847,17 +7855,17 @@ select[multiple].input-lg,
   line-height: 1.33333;
 }
 
-/* line 389, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 398, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .has-feedback {
   position: relative;
 }
 
-/* line 394, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 403, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .has-feedback .form-control {
   padding-right: 42.5px;
 }
 
-/* line 399, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 408, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-control-feedback {
   position: absolute;
   top: 0;
@@ -7871,7 +7879,7 @@ select[multiple].input-lg,
   pointer-events: none;
 }
 
-/* line 411, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 420, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .input-lg + .form-control-feedback, .input-group-lg > .form-control + .form-control-feedback,
 .input-group-lg > .input-group-addon + .form-control-feedback,
 .input-group-lg > .input-group-btn > .btn + .form-control-feedback,
@@ -7882,7 +7890,7 @@ select[multiple].input-lg,
   line-height: 46px;
 }
 
-/* line 418, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 427, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .input-sm + .form-control-feedback, .input-group-sm > .form-control + .form-control-feedback,
 .input-group-sm > .input-group-addon + .form-control-feedback,
 .input-group-sm > .input-group-btn > .btn + .form-control-feedback,
@@ -8013,17 +8021,17 @@ select[multiple].input-lg,
   color: #a94442;
 }
 
-/* line 440, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 449, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .has-feedback label ~ .form-control-feedback {
   top: 25px;
 }
 
-/* line 443, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 452, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
 }
 
-/* line 454, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 463, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .help-block {
   display: block;
   margin-top: 5px;
@@ -8032,43 +8040,43 @@ select[multiple].input-lg,
 }
 
 @media (min-width: 768px) {
-  /* line 479, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 488, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-inline .form-group {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 486, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 495, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-inline .form-control {
     display: inline-block;
     width: auto;
     vertical-align: middle;
   }
-  /* line 493, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 502, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-inline .form-control-static {
     display: inline-block;
   }
-  /* line 497, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 506, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-inline .input-group {
     display: inline-table;
     vertical-align: middle;
   }
-  /* line 501, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 510, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-inline .input-group .input-group-addon,
   .form-inline .input-group .input-group-btn,
   .form-inline .input-group .form-control {
     width: auto;
   }
-  /* line 509, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 518, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-inline .input-group > .form-control {
     width: 100%;
   }
-  /* line 513, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 522, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-inline .control-label {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 520, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 529, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-inline .radio,
   .form-inline .checkbox {
     display: inline-block;
@@ -8076,24 +8084,24 @@ select[multiple].input-lg,
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 527, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 536, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-inline .radio label,
   .form-inline .checkbox label {
     padding-left: 0;
   }
-  /* line 531, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 540, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-inline .radio input[type="radio"],
   .form-inline .checkbox input[type="checkbox"] {
     position: relative;
     margin-left: 0;
   }
-  /* line 538, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 547, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-inline .has-feedback .form-control-feedback {
     top: 0;
   }
 }
 
-/* line 560, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 569, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox,
 .form-horizontal .radio-inline,
@@ -8103,13 +8111,13 @@ select[multiple].input-lg,
   padding-top: 7px;
 }
 
-/* line 570, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 579, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox {
   min-height: 27px;
 }
 
-/* line 576, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 585, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-horizontal .form-group {
   margin-left: -15px;
   margin-right: -15px;
@@ -8127,7 +8135,7 @@ select[multiple].input-lg,
 }
 
 @media (min-width: 768px) {
-  /* line 583, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 592, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-horizontal .control-label {
     text-align: right;
     margin-bottom: 10;
@@ -8135,13 +8143,13 @@ select[multiple].input-lg,
   }
 }
 
-/* line 594, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+/* line 603, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
 .form-horizontal .has-feedback .form-control-feedback {
   right: 15px;
 }
 
 @media (min-width: 768px) {
-  /* line 604, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 613, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-horizontal .form-group-lg .control-label {
     padding-top: 11px;
     font-size: 18px;
@@ -8149,7 +8157,7 @@ select[multiple].input-lg,
 }
 
 @media (min-width: 768px) {
-  /* line 612, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 621, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .form-horizontal .form-group-sm .control-label {
     padding-top: 6px;
     font-size: 12px;
@@ -8609,7 +8617,7 @@ fieldset[disabled] .btn-danger.focus {
 /* line 93, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
 .btn-outline-default {
   color: #fff;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.15);
   border-color: #ccc;
 }
 
@@ -8674,7 +8682,7 @@ fieldset[disabled] .btn-outline-default.focus {
 /* line 96, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
 .btn-outline-primary {
   color: #FF9100;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.15);
   border-color: #e68300;
 }
 
@@ -8739,7 +8747,7 @@ fieldset[disabled] .btn-outline-primary.focus {
 /* line 100, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
 .btn-outline-success {
   color: #00E676;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.15);
   border-color: #00cd69;
 }
 
@@ -8804,7 +8812,7 @@ fieldset[disabled] .btn-outline-success.focus {
 /* line 104, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
 .btn-outline-info {
   color: #00B0FF;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.15);
   border-color: #009ee6;
 }
 
@@ -8869,7 +8877,7 @@ fieldset[disabled] .btn-outline-info.focus {
 /* line 108, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
 .btn-outline-warning {
   color: #FBC02D;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.15);
   border-color: #fbb814;
 }
 
@@ -8934,7 +8942,7 @@ fieldset[disabled] .btn-outline-warning.focus {
 /* line 112, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
 .btn-outline-danger {
   color: #FF1744;
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.15);
   border-color: #fd0031;
 }
 
@@ -9158,7 +9166,7 @@ tbody.collapse.in {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 14px;
+  font-size: 12px;
   text-align: left;
   background-color: #fff;
   border: 1px solid #ccc;
@@ -9826,114 +9834,215 @@ tbody.collapse.in {
 }
 
 /* line 120, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-secondary {
+  background: none !important;
+  color: #ffffff;
+}
+
+/* line 124, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-secondary > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+/* line 130, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-secondary > li > a {
+  background: none !important;
+  color: #ffffff;
+  padding: 20px 15px;
+}
+
+/* line 134, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-secondary > li > a:hover {
+  background: none !important;
+  border-color: #CFD8DC #CFD8DC #ddd;
+}
+
+/* line 142, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-secondary > li.active > a, .nav-tabs-secondary > li.active > a:hover, .nav-tabs-secondary > li.active > a:focus {
+  color: #fff;
+  background: none !important;
+}
+
+/* line 150, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-secondary > li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 4px;
+  width: 0px;
+  background: transparent;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/* line 159, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-secondary > li.active:after, .nav-tabs-secondary > li:hover:after, .nav-tabs-secondary > li:focus:after {
+  width: 100%;
+  background: #cfeaff;
+}
+
+/* line 174, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-primary {
+  background: none !important;
+  color: #455A64;
+}
+
+/* line 179, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-primary > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+/* line 185, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-primary > li > a {
+  border: none !important;
+  background: none !important;
+  color: #455A64;
+  padding: 20px 15px;
+}
+
+/* line 190, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-primary > li > a:hover {
+  background: none !important;
+  border-color: #CFD8DC #CFD8DC #ddd;
+}
+
+/* line 198, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-primary > li.active > a, .nav-tabs-primary > li.active > a:hover, .nav-tabs-primary > li.active > a:focus {
+  color: #FF9100;
+  background: none !important;
+}
+
+/* line 206, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-primary > li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 4px;
+  width: 0px;
+  background: transparent;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/* line 215, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-primary > li.active:after, .nav-tabs-primary > li:hover:after, .nav-tabs-primary > li:focus:after {
+  width: 100%;
+  background: #FF9100;
+}
+
+/* line 232, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-pills > li {
   float: left;
 }
 
-/* line 124, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 236, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-pills > li > a {
   border-radius: 4px;
 }
 
-/* line 127, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 239, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-pills > li + li {
   margin-left: 2px;
 }
 
-/* line 133, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 245, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #fff;
   background-color: #FF9100;
 }
 
-/* line 146, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 258, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-stacked > li {
   float: none;
 }
 
-/* line 148, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 260, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-stacked > li + li {
   margin-top: 2px;
   margin-left: 0;
 }
 
-/* line 162, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-.nav-justified, .nav-tabs.nav-justified {
+/* line 274, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-justified, .nav-tabs.nav-justified, .nav-tabs-secondary.nav-justified, .nav-tabs-primary.nav-justified {
   width: 100%;
 }
 
-/* line 165, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-.nav-justified > li, .nav-tabs.nav-justified > li {
+/* line 277, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-justified > li, .nav-tabs.nav-justified > li, .nav-tabs-secondary.nav-justified > li, .nav-tabs-primary.nav-justified > li {
   float: none;
 }
 
-/* line 167, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-.nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+/* line 279, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs-secondary.nav-justified > li > a, .nav-tabs-primary.nav-justified > li > a {
   text-align: center;
   margin-bottom: 5px;
 }
 
-/* line 173, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 285, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-justified > .dropdown .dropdown-menu {
   top: auto;
   left: auto;
 }
 
 @media (min-width: 768px) {
-  /* line 179, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-  .nav-justified > li, .nav-tabs.nav-justified > li {
+  /* line 291, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+  .nav-justified > li, .nav-tabs.nav-justified > li, .nav-tabs-secondary.nav-justified > li, .nav-tabs-primary.nav-justified > li {
     display: table-cell;
     width: 1%;
   }
-  /* line 182, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-  .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
+  /* line 294, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+  .nav-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs-secondary.nav-justified > li > a, .nav-tabs-primary.nav-justified > li > a {
     margin-bottom: 0;
   }
 }
 
-/* line 192, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-.nav-tabs-justified, .nav-tabs.nav-justified {
+/* line 304, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-justified, .nav-tabs.nav-justified, .nav-tabs-secondary.nav-justified, .nav-tabs-primary.nav-justified {
   border-bottom: 0;
 }
 
-/* line 195, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-.nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+/* line 307, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs-secondary.nav-justified > li > a, .nav-tabs-primary.nav-justified > li > a {
   margin-right: 0;
   border-radius: 4px;
 }
 
-/* line 201, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
-.nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover,
-.nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus {
+/* line 313, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a, .nav-tabs-secondary.nav-justified > .active > a, .nav-tabs-primary.nav-justified > .active > a,
+.nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs-secondary.nav-justified > .active > a:hover, .nav-tabs-primary.nav-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs-secondary.nav-justified > .active > a:focus, .nav-tabs-primary.nav-justified > .active > a:focus {
   border: 1px solid #ddd;
 }
 
 @media (min-width: 768px) {
-  /* line 208, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-  .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
+  /* line 320, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+  .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs-secondary.nav-justified > li > a, .nav-tabs-primary.nav-justified > li > a {
     border-bottom: 1px solid #ddd;
     border-radius: 4px 4px 0 0;
   }
-  /* line 212, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
-  .nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover,
-  .nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus {
+  /* line 324, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a, .nav-tabs-secondary.nav-justified > .active > a, .nav-tabs-primary.nav-justified > .active > a,
+  .nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs-secondary.nav-justified > .active > a:hover, .nav-tabs-primary.nav-justified > .active > a:hover,
+  .nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs-secondary.nav-justified > .active > a:focus, .nav-tabs-primary.nav-justified > .active > a:focus {
     border-bottom-color: #fff;
   }
 }
 
-/* line 226, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 338, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .tab-content > .tab-pane {
   display: none;
 }
 
-/* line 229, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 341, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .tab-content > .active {
   display: block;
 }
 
-/* line 239, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 351, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-right-radius: 0;
@@ -10179,8 +10288,8 @@ tbody.collapse.in {
 
 /* line 232, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navbar.scss */
 .navbar-nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   line-height: 20px;
 }
 
@@ -10241,43 +10350,43 @@ tbody.collapse.in {
 }
 
 @media (min-width: 768px) {
-  /* line 479, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 488, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .navbar-form .form-group {
     display: inline-block;
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 486, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 495, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .navbar-form .form-control {
     display: inline-block;
     width: auto;
     vertical-align: middle;
   }
-  /* line 493, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 502, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .navbar-form .form-control-static {
     display: inline-block;
   }
-  /* line 497, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 506, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .navbar-form .input-group {
     display: inline-table;
     vertical-align: middle;
   }
-  /* line 501, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 510, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .navbar-form .input-group .input-group-addon,
   .navbar-form .input-group .input-group-btn,
   .navbar-form .input-group .form-control {
     width: auto;
   }
-  /* line 509, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 518, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .navbar-form .input-group > .form-control {
     width: 100%;
   }
-  /* line 513, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 522, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .navbar-form .control-label {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 520, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 529, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .navbar-form .radio,
   .navbar-form .checkbox {
     display: inline-block;
@@ -10285,18 +10394,18 @@ tbody.collapse.in {
     margin-bottom: 0;
     vertical-align: middle;
   }
-  /* line 527, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 536, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .navbar-form .radio label,
   .navbar-form .checkbox label {
     padding-left: 0;
   }
-  /* line 531, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 540, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .navbar-form .radio input[type="radio"],
   .navbar-form .checkbox input[type="checkbox"] {
     position: relative;
     margin-left: 0;
   }
-  /* line 538, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
+  /* line 547, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_forms.scss */
   .navbar-form .has-feedback .form-control-feedback {
     top: 0;
   }
@@ -10932,15 +11041,15 @@ fieldset[disabled] .navbar-secondary .btn-link:focus {
 /* line 12, D:/web-projects/Yazyk_Analytics/scss/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
 }
 
 /* line 18, D:/web-projects/Yazyk_Analytics/scss/bootstrap/mixins/_pagination.scss */
 .pagination-sm > li:last-child > a,
 .pagination-sm > li:last-child > span {
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
 }
 
 /* line 6, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_pager.scss */
@@ -11010,14 +11119,14 @@ fieldset[disabled] .navbar-secondary .btn-link:focus {
 .label {
   display: inline;
   padding: .2em .9em .3em;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 600;
   line-height: 1;
   color: #fff;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 25px;
+  border-radius: 4px;
   text-transform: uppercase;
 }
 
@@ -12400,7 +12509,7 @@ button.list-group-item-danger.active:focus {
 /* line 26, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_wells.scss */
 .well-sm {
   padding: 9px;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 /* line 6, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_close.scss */

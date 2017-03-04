@@ -1,0 +1,491 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>My Projects | Yazyk Analytics Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/yazyk-ronnelsanchez.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/styles.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <body>
+    <header id="global-nav" class="navbar navbar-default">
+        <nav role="navigation">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+             <img class="brand-logo" width="125" src="images/yzalogo.jpg">
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                <li class="active">
+                  <a href="#">Projects</a>
+                </li>
+                <li>
+                  <a href="#">Hire Translator</a>
+                </li>
+                <li>
+                  <a href="#">Profile</a>
+                </li>
+              </ul>
+              <ul id="right-nav" class="nav navbar-nav navbar-right">
+               <li class="nav-divider"></li>
+                <li>
+                  <button class="btn btn-primary btn-lg hidden-xs new-project-nav">New Project</button>
+                  <button class="btn btn-primary btn-lg hidden-sm hidden-md hidden-lg btn-block">New Project</button>
+                </li>
+               <li class="nav-divider"></li>
+                <li>
+                  <div class="user-nav dropdown">
+                    <a data-toggle="dropdown" href="#">
+                      <div class="media">
+                        <div class="media-left media-middle">
+                          <img width="40" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                          <i class="fa fa-fw  hidden-xs" aria-hidden="true" title="Copy to use caret-down"></i>
+                        </div>
+                      <div class="media-body media-middle hidden-sm hidden-md hidden-lg">
+                          <div class="user-company">
+                          <strong>Ronnel Sanchez
+                            <i class="fa fa-fw pull-right" aria-hidden="true" title="Copy to use caret-down"></i>
+                          </strong>
+                        </div><div class="user-email">ronnel.sanchez@gmail.com</div>
+                      </div>
+                    </div>
+                    </a>
+                        <ul class="dropdown-menu">
+                        <li>
+                         <div class="user-media media hidden-xs">
+                              <div class="media-left media-middle">
+                                <img width="60" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                              </div>
+                            <div class="media-body media-middle">
+                                <div class="user-company">
+                                <strong>Ronnel Sanchez</strong>
+                              </div><div class="user-email">ronnel.sanchez@gmail.com</div>
+                            </div>
+                          </div>
+                          <a href="#">View Profile</a>
+                        </li>
+                        <li class="nav-divider"></li>
+                        <li><a href="#">Log Out</a></li>
+                      </ul>
+                  </div>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+    </header>
+    <div id="banner" class="navbar navbar-secondary">
+    <nav role="navigation">
+      <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="heading">
+                  <h1>Japanese content for Promo</h1>
+                  <span class="label label-warning">In Progress</span>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div id="project-media" class="row">
+                  <div class="col-xs-4">
+                    <div class="media">
+                      <div class="media-left media-middle">
+                        <i class="fa fa-calendar-plus-o fa-2x" aria-hidden="true"></i>
+                      </div>
+                      <div class="media-body">
+                          <span class="legend">Date Started</span>
+                          <p>February 14, 2017</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-4">
+                    <div class="media">
+                      <div class="media-left media-middle">
+                        <i class="fa fa-calendar-check-o fa-2x" aria-hidden="true"></i>
+                      </div>
+                      <div class="media-body">
+                          <span class="legend">Target</span>
+                          <p>April 30, 2017</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-4">
+                    <div class="media">
+                      <div class="media-left media-middle">
+                        <i class="fa fa-money fa-2x" aria-hidden="true"></i>
+                      </div>
+                      <div class="media-body">
+                          <span class="legend">Budget</span>
+                          <p>£ 10,000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+          </div>
+          <ul id="sub-nav" class="nav nav-tabs-secondary hidden-xs">
+            <li class="active">
+              <a data-toggle="tab" href="#htTab">Hire Translator</a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#mTab">Management</a>
+            </li>
+            <li>
+              <a data-toggle="tab" href="#pdTab">Project Details</a>
+            </li>
+
+          </ul>
+          <div class="pull-right hidden-xs">
+              <button class="btn btn-outline-default btn-lg btn-change-status"><i class="fa fa-pause" aria-hidden="true"></i>Change Project Status</button>
+          </div>
+       </div>
+         <div id="res-sub-nav" class="container-fluid hidden-sm hidden-md hidden-lg text-center">
+            <a data-toggle="collapse" href="#collapseSubNav" class="collapsed" aria-expanded="false">
+              <span>Menu<i class="fa fa-fw pull-right" aria-hidden="true"></i></span>
+            </a>
+              <div class="collapse" id="collapseSubNav" aria-expanded="false" style="height: 0px;">
+                <ul class="nav navbar-nav">
+                 <li>
+               <a data-toggle="tab" href="#htTab">Hire Translator</a>
+                  </li>
+                  <li>
+               <a data-toggle="tab" href="#mTab">Management</a>
+                  </li>
+                  <li>
+                <a data-toggle="tab" href="#pdTab">Project Details</a>
+                  </li>
+         
+                 </ul>
+                 <button class="btn btn-outline-default btn-lg btn-block res-btn-change-status"><i class="fa fa-pause" aria-hidden="true"></i>Change Project Status</button>
+              </div>
+          </div>
+    </nav>
+     
+  </div>
+
+
+
+    <main>
+      <div class="container tab-content">
+        <div id="htTab" class="row tab-pane fade in active">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="left-content ">
+                <h3 class="section-title">Filter</h3>
+                <section class="filter-list">
+                  <span class="label-title">
+                    Language
+                  </span>
+                  <ul class="list-unstyled">
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
+                  </ul>
+                </section>
+                <section class="filter-list">
+                  <span class="label-title">
+                    Language
+                  </span>
+                  <ul class="list-unstyled">
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
+                  </ul>
+                </section>
+                <section class="filter-list">
+                  <span class="label-title">
+                    Language
+                  </span>
+                  <ul class="list-unstyled">
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
+                  </ul>
+                </section>
+            </div>
+          </div>
+          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <div class="main-content">
+              <h3 class="section-title">Translators</h3>
+              <ul class="list-unstyled translator-list">
+                <li>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+                      <img width="80" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="translator-name">
+                        <h4>Ronnel Sanchez <span class="label label-success">Available</span></h4>
+                      </div>
+                      <div>
+                        <span class="label-title">Mother Tongue</span>
+                        <p>English</p>
+                      </div>
+                      <div class="row">
+                          <div class="translator-skills col-xs-12 col-sm-12 col-md-6 col-md-6">
+                          <span class="label-title">Languages</span>
+                          <ul class="list-unstyled list-inline">
+                            <li>Spanish</li>
+                            <li>French</li>
+                          </ul>
+                        </div>
+                          <div class="translator-skills col-xs-12 col-sm-12 col-md-6 col-md-6">
+                          <span class="label-title">Skils</span>
+                          <ul class="list-unstyled list-inline">
+                            <li>All</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="translator-action col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                      <button type="button" class="btn btn-primary btn-block">Invite to Project</button>
+                      <button type="button" class="btn btn-default btn-block">View Profile</button>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+                      <img width="80" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="translator-name">
+                        <h4>Lyka Labrada <span class="label label-success">Available</span></h4>
+                      </div>
+                      <div>
+                        <span class="label-title">Mother Tongue</span>
+                        <p>English</p>
+                      </div>
+                      <div class="row">
+                          <div class="translator-skills col-xs-12 col-sm-12 col-md-6 col-md-6">
+                          <span class="label-title">Languages</span>
+                          <ul class="list-unstyled list-inline">
+                            <li>Spanish</li>
+                            <li>French</li>
+                          </ul>
+                        </div>
+                          <div class="translator-skills col-xs-12 col-sm-12 col-md-6 col-md-6">
+                          <span class="label-title">Skils</span>
+                          <ul class="list-unstyled list-inline">
+                            <li>Copywritting</li>
+                            <li>Voice-Over</li>
+                            <li>Transcription</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="translator-action col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                      <button type="button" class="btn btn-primary btn-block">Invite to Project</button>
+                      <button type="button" class="btn btn-default btn-block">View Profile</button>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+                      <img width="80" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                      <div class="translator-name">
+                        <h4>John Doe <span class="label label-default">UnAvailable</span></h4>
+                      </div>
+                      <div>
+                        <span class="label-title">Mother Tongue</span>
+                        <p>Spanish</p>
+                      </div>
+                      <div class="row">
+                          <div class="translator-skills col-xs-12 col-sm-12 col-md-6 col-md-6">
+                          <span class="label-title">Languages</span>
+                          <ul class="list-unstyled list-inline">
+                            <li>Spanish</li>
+                          </ul>
+                        </div>
+                          <div class="translator-skills col-xs-12 col-sm-12 col-md-6 col-md-6">
+                          <span class="label-title">Skils</span>
+                          <ul class="list-unstyled list-inline">
+                            <li>Copywritting</li>
+                          </ul>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="translator-action col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                      <button type="button" class="btn btn-primary btn-block">Invite to Project</button>
+                      <button type="button" class="btn btn-default btn-block">View Profile</button>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="mTab" class="row tab-pane fade">
+          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+            <div class="left-content ">
+              <h3 class="section-title">Conversation</h3>
+              <ul class="list-unstyled list-conversation">
+                <li>
+                 <div class="user-media media">
+                  <div class="media-left media-middle">
+                    <img width="60" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                  </div>
+                  <div class="media-body media-middle">
+                    <div class="user-company">
+                        <strong><i class="fa fa-circle" aria-hidden="true"></i> Ronnel Sanchez</strong>
+                    </div>
+                    <div class="user-email">This is a Message</div>
+                  </div>
+                  </div>  
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+            <div class="main-content">
+              <div id="conversation-header">
+                <div class="row">
+                  <div class="col-xs-8">
+                    <div class="media">
+                      <div class="media-left media-middle">
+                        <img width="60" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                      </div>
+                      <div class="media-body">
+                        <div class="user-company">
+                            <h4> Ronnel Sanchez</h4>
+                            <span class="label label-warning">In Progress</span>
+                        </div>
+                      </div>
+                    </div>  
+                  </div>
+                  <div class="col-xs-4">
+                    <button type="button" class="btn btn-default">View Profile</button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-6">
+                    <span class="label-title">Languages</span>
+                            <ul class="list-unstyled list-inline">
+                              <li>Spanish</li>
+                              <li>French</li>
+                            </ul>
+                  </div>
+                  <div class="col-xs-6">
+                    <span class="label-title">Languages</span>
+                            <ul class="list-unstyled list-inline">
+                              <li>Spanish</li>
+                              <li>French</li>
+                            </ul>
+                  </div>
+                </div>
+              </div>
+              <div id="conversation-chat">
+                <div class="row" style="
+    height: 100%;
+    overflow-y: scroll;
+    max-height: 100px;
+">
+                  <div class="col-xs-12">
+                    <div class="media">
+                      <div class="media-left media-middle">
+                        <img width="40" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                      </div>
+                      <div class="media-body">
+                        <div class="user-company">
+                            <h5> Ronnel Sanchez</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="
+    padding: 15px;
+    background: pink;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: #ffffff;
+">
+                      chat chat chat
+                    </div>
+                  </div>
+                                    <div class="col-xs-12">
+                    <div class="media">
+                      <div class="media-left media-middle">
+                        <img width="40" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                      </div>
+                      <div class="media-body">
+                        <div class="user-company">
+                            <h5> Ronnel Sanchez</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div style="
+    padding: 15px;
+    background: pink;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: #ffffff;
+">
+                      chat chat chat
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="pdTab" class="row tab-pane fade">
+          <div class="col-xs-12">
+            <div class="main-content">
+            asdasdasd
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        Footer
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

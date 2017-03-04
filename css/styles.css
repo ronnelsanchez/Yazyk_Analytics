@@ -85,6 +85,15 @@ html,body{
 }
 
 
+footer{
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: #001d33;
+    color: #ffffff;
+}
 /*
  * Placeholder dashboard ideas
  */
@@ -108,6 +117,52 @@ html,body{
 .heading{
 padding: 40px 0 25px;
 }
+
+#sub-nav{
+  display: inline-block;
+}
+
+.btn-change-status{
+  margin-top: 10px
+}
+
+.res-btn-change-status{
+  margin: 15px 0;
+}
+
+.btn-change-status > i:after,.res-btn-change-status > i:after{
+    content: '|';
+    display: inline-block;
+    margin: 0 8px;
+}
+
+#res-sub-nav{
+  background-color: #003c6b;
+}
+
+#res-sub-nav > a{
+    padding: 15px 10px;
+    display: block;
+}
+
+#res-sub-nav > a > span{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+#res-sub-nav > a > span > i {
+  margin-left: -16px;
+}
+
+
+#res-sub-nav > #collapseSubNav > .navbar-nav {
+  margin:0;
+      border-top: 1px solid #01579b;
+    border-bottom: 1px solid #01579b;
+}
+
 
 
 #project-media{
@@ -135,28 +190,17 @@ padding: 40px 0 25px;
   border-radius: 4px;
 }
 
-.user-avatar{
-  margin-right: 15px;
+
+.user-media{
+  padding: 0 10px;
+  margin: 15px 0!important;
 }
 
-.user-avatar > i {
-   margin-top: 14px;
+.user-company,.user-email{
+text-transform: none;
+font-size: 14px;
 }
-
-.user-details{
-  display: inline-block;
-}
-
-.user-company{
-  text-transform: none;
-}
-
-.user-email{
-  text-transform: none;
-}
-
 .section-title{
-    margin-bottom: 40px;
     padding: 5px 0;
     margin-bottom: 20px;
 
@@ -174,3 +218,120 @@ padding: 40px 0 25px;
     border-bottom: 5px solid #FBC02D;
 }
 
+.left-content, .main-content{
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+  padding: 30px 15px 15px;
+}
+
+.filter-list{
+  margin-bottom: 40px;
+}
+.translator-name{
+  margin-bottom: 10px;
+}
+ .translator-list > li{
+  border-bottom:1px solid #dddddd;
+  padding: 15px 0;
+ }
+  .translator-list > li:last-child{
+  border-bottom:none;
+ }
+
+.translator-action{
+  margin-top: 20px;
+}
+
+#conversation-header{
+  border-bottom: 1px solid #dddddd;
+}
+
+#conversation-header > .row,#conversation-chat > .row{
+margin:10px 0;
+}
+
+
+/*PM*/
+.dashboard-logo{
+  font-weight: 100;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#pm-main{
+   height: calc(100% - 62px);
+}
+
+#translator-bar,#project-bar,#manangement-bar{
+    height: 100%;
+    overflow-y: auto;
+    max-height: 100%;
+}
+
+#translator-bar{
+  color: #ffffff;
+  background-color: #001d33;
+  padding: 0;
+}
+
+
+.pm-translator-list > li > a{
+  display: inline-block;
+  color: #ffffff;
+}
+
+.pm-translator-list > li > a:hover,.pm-translator-list > li.active > a{
+  background-color: #fafafa;
+  color: #333333;
+}
+
+.pm-translator-list-content{
+  margin-top: 15px;
+}
+
+#project-bar{
+  box-shadow: -3px 3px 4px rgba(0,0,0,.2);
+}
+
+.pm-project-translator-header{
+-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+}
+
+
+.pm-project-list{
+  margin-top: 20px;
+}
+
+.pm-project-list > li {
+  border-bottom: 1px solid #dddddd;
+}
+.pm-project-list > li:last-child {
+  border-bottom: none;
+}
+
+.pm-project-list > li > a{
+  padding: 15px;
+  display: inline-block;
+  width: 100%;
+  color: #455A64;
+}
+
+.pm-project-list > li > a:hover,.pm-project-list > li.active > a{
+background-color: #ffffff;
+color: #333333;
+}
+
+#manangement-bar{
+  box-shadow: -3px 3px 4px rgba(0,0,0,.2);
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.pm-manangement-banner{
+
+}
