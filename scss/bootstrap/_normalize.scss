@@ -90,6 +90,8 @@ a {
   background-color: transparent;
 }
 
+*:focus {outline:none!important;}
+
 //
 // Improve readability of focused elements when they are also in an
 // active/hover state.
@@ -428,6 +430,4 @@ th {
   > div > .media > .media-body > .legend,p {
     margin-bottom: 0;
   }
-
-
 }

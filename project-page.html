@@ -76,7 +76,7 @@
                       <div class="media-body media-middle hidden-sm hidden-md hidden-lg">
                           <div class="user-company">
                           <strong>Ronnel Sanchez
-                            <i class="fa fa-fw pull-right" aria-hidden="true" title="Copy to use caret-down"></i>
+                             <i class="fa fa-fw pull-right" aria-hidden="true"></i>
                           </strong>
                         </div><div class="user-email">ronnel.sanchez@gmail.com</div>
                       </div>
@@ -156,10 +156,10 @@
             </div>
           </div>
           <ul id="sub-nav" class="nav nav-tabs-secondary hidden-xs">
-            <li class="active">
+            <li >
               <a data-toggle="tab" href="#htTab">Hire Translator</a>
             </li>
-            <li>
+            <li class="active">
               <a data-toggle="tab" href="#mTab">Management</a>
             </li>
             <li>
@@ -199,7 +199,7 @@
 
     <main>
       <div class="container tab-content">
-        <div id="htTab" class="row tab-pane fade in active">
+        <div id="htTab" class="row tab-pane fade">
           <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
             <div class="left-content ">
                 <h3 class="section-title">Filter</h3>
@@ -353,7 +353,7 @@
           </div>
         </div>
 
-        <div id="mTab" class="row tab-pane fade">
+        <div id="mTab" class="row tab-pane fade in active">
           <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
             <div class="left-content ">
               <h3 class="section-title">Conversation</h3>
@@ -365,7 +365,7 @@
                   </div>
                   <div class="media-body media-middle">
                     <div class="user-company">
-                        <strong><i class="fa fa-circle" aria-hidden="true"></i> Ronnel Sanchez</strong>
+                        <strong><i class="fa fa-circle text-success" aria-hidden="true"></i> Ronnel Sanchez</strong>
                     </div>
                     <div class="user-email">This is a Message</div>
                   </div>
@@ -386,7 +386,7 @@
                       <div class="media-body">
                         <div class="user-company">
                             <h4> Ronnel Sanchez</h4>
-                            <span class="label label-warning">In Progress</span>
+                            <span class="text-success"><i class="fa fa-circle" aria-hidden="true"></i> Online</span>
                         </div>
                       </div>
                     </div>  
@@ -397,28 +397,27 @@
                 </div>
                 <div class="row">
                   <div class="col-xs-6">
-                    <span class="label-title">Languages</span>
-                            <ul class="list-unstyled list-inline">
-                              <li>Spanish</li>
-                              <li>French</li>
-                            </ul>
+                      <ul class="list-unstyled list-inline">
+                      <li><span class="label-title">Languages</span></li>
+                        <li>Spanish</li>
+                        <li>French</li>
+                      </ul>
                   </div>
                   <div class="col-xs-6">
-                    <span class="label-title">Languages</span>
-                            <ul class="list-unstyled list-inline">
-                              <li>Spanish</li>
-                              <li>French</li>
-                            </ul>
+                      <ul class="list-unstyled list-inline">
+                        <li>
+                          <span class="label-title">Skills</span>
+                        </li>
+                        <li>Spanish</li>
+                        <li>French</li>
+                      </ul>
                   </div>
                 </div>
               </div>
               <div id="conversation-chat">
-                <div class="row" style="
-    height: 100%;
-    overflow-y: scroll;
-    max-height: 100px;
-">
-                  <div class="col-xs-12">
+                <div class="row coversation-container">
+
+                  <div class="chat-bubble col-xs-12">
                     <div class="media">
                       <div class="media-left media-middle">
                         <img width="40" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
@@ -429,38 +428,51 @@
                         </div>
                       </div>
                     </div>
-                    <div style="
-    padding: 15px;
-    background: pink;
-    border-radius: 4px;
-    margin-top: 5px;
-    color: #ffffff;
-">
-                      chat chat chat
+                    <div class="chat-bubble-t">
+                      <span class="chat-time">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i> 02/23/2017 <div class="divider"></div> 07:30 AM 
+                      </span>
+                      <p>Realtid Ltd is a London based export consultancy which includes Yazyk Translations (global translation agency since 2011) and Realtid software (content marketing, social and analytics platform).
+                      </p>
                     </div>
                   </div>
-                                    <div class="col-xs-12">
+
+                  <div class="chat-bubble text-right col-xs-12">
                     <div class="media">
-                      <div class="media-left media-middle">
-                        <img width="40" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
-                      </div>
+                      
                       <div class="media-body">
                         <div class="user-company">
-                            <h5> Ronnel Sanchez</h5>
+                            <h5> Company Name</h5>
                         </div>
                       </div>
+                      <div class="media-right media-middle">
+                        <img width="40" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                      </div>
                     </div>
-                    <div style="
-    padding: 15px;
-    background: pink;
-    border-radius: 4px;
-    margin-top: 5px;
-    color: #ffffff;
-">
-                      chat chat chat
+                    <div class="chat-bubble-c">
+                      <span class="chat-time">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i> 02/23/2017 <div class="divider"></div> 07:30 AM 
+                      </span>
+                      <p>
+                      Thats great! glad working with you.
+                      </p>
                     </div>
                   </div>
+
                 </div>
+              </div>
+              <div id="conversation-input">
+              <div class="row">
+                <form action="project-page_submit" method="get" accept-charset="utf-8">
+                  <div class="form-group">
+                      <textarea class="form-control" rows="3"></textarea>
+                  </div>
+                  <div class="form-group">
+                    <a type="submit" class="btn btn-lg btn-outline-info"><i class="fa fa-paperclip" aria-hidden="true"></i> Attached File</a>
+                    <a type="submit" class="btn btn-lg btn-info pull-right">Send</a>
+                  </div>
+                </form>
+              </div>
               </div>
             </div>
           </div>

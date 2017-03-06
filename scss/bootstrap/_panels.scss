@@ -280,7 +280,7 @@
     display: inline-block;
     width: 5px;
     text-align: center;
-    color: $gray-light;
+    color: inherit;
     &::before{
       content: "\2022";
       font-weight: normal;

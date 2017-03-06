@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
  * Base structure
  */
@@ -207,15 +208,15 @@ font-size: 14px;
 }
 
 .in-progress{
-  color: #00E676;
-  border-bottom: 1px solid #00E676;
+  color: #4CAF50;
+  border-bottom: 1px solid #4CAF50;
 }
 
 .in-progress-bar{
     height: 5px;
     width: 100px;
     position: absolute;
-    border-bottom: 5px solid #00E676;
+    border-bottom: 5px solid #4CAF50;
 }
 
 .left-content, .main-content{
@@ -224,7 +225,7 @@ font-size: 14px;
   border-radius: 2px;
   -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
-  padding: 30px 15px 15px;
+  padding: 15px;
 }
 
 .filter-list{
@@ -249,10 +250,53 @@ font-size: 14px;
   border-bottom: 1px solid #dddddd;
 }
 
-#conversation-header > .row,#conversation-chat > .row{
+#conversation-input{
+  border-top: 1px solid #dddddd;
+}
+
+#conversation-header > .row,#conversation-chat > .row,#conversation-input > .row{
 margin:10px 0;
 }
 
+.coversation-container{
+    overflow: auto;
+    height: calc(100vh - 742px);
+    min-height: calc(100vh - 742px);
+    padding-bottom: 25px;
+}
+.chat-bubble{
+margin-top: 15px;
+}
+
+
+
+.chat-bubble-t,.chat-bubble-c{
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 5px;
+    max-width: 80%;
+}
+
+
+.chat-bubble-t{
+    border:1px solid #CFD8DC;
+    color: inherit;
+
+}
+
+.chat-bubble-c{
+    background-color: #00B0FF;
+    color: #ffffff;
+    float: right;
+}
+
+.chat-bubble-t > .chat-time,.chat-bubble-c > .chat-time{
+display: inline-block;
+width: 100%;
+text-align: right;
+font-size: 12px;
+margin-bottom: 10px;
+}
 
 /*PM*/
 .dashboard-logo{
@@ -286,7 +330,7 @@ margin:10px 0;
 
 .pm-translator-list > li > a:hover,.pm-translator-list > li.active > a{
   background-color: #fafafa;
-  color: #333333;
+  color: #455A64;
 }
 
 .pm-translator-list-content{
@@ -334,5 +378,39 @@ color: #ffffff;
 
 .pm-manangement-status{
   padding-top: 40px;
-  text-align: center;
+}
+
+.pm-manangement-container{
+  display: inline-block;
+  width: 100%;
+}
+
+
+/* Mobile Responsive */
+@media (min-width: 320px) {
+
+}
+
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1440px) {
+
+}
+
+@media (min-width: 1600px) {
+
 }

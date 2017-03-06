@@ -1,28 +1,28 @@
-/* line 27, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 27, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 select.bs-select-hidden,
 select.selectpicker {
   display: none !important;
 }
 
-/* line 32, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 32, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select {
   width: 220px \0;
   /*IE9 and below*/
 }
 
-/* line 36, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 36, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select > .dropdown-toggle {
   width: 100%;
   padding-right: 25px;
   z-index: 1;
 }
 
-/* line 41, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 41, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select > .dropdown-toggle.bs-placeholder, .bootstrap-select > .dropdown-toggle.bs-placeholder:hover, .bootstrap-select > .dropdown-toggle.bs-placeholder:focus, .bootstrap-select > .dropdown-toggle.bs-placeholder:active {
   color: #999;
 }
 
-/* line 47, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 47, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select > select {
   position: absolute !important;
   bottom: 0;
@@ -35,7 +35,7 @@ select.selectpicker {
   border: none;
 }
 
-/* line 58, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 58, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select > select.mobile-device {
   top: 0;
   left: 0;
@@ -44,78 +44,78 @@ select.selectpicker {
   z-index: 2;
 }
 
-/* line 68, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 68, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .has-error .bootstrap-select .dropdown-toggle,
 .error .bootstrap-select .dropdown-toggle {
   border-color: #b94a48;
 }
 
-/* line 73, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 73, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.fit-width {
   width: auto !important;
 }
 
-/* line 77, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 77, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
   width: 220px;
 }
 
-/* line 81, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 81, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select .dropdown-toggle:focus {
   outline: thin dotted #333333 !important;
   outline: 5px auto -webkit-focus-ring-color !important;
   outline-offset: -2px;
 }
 
-/* line 88, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 88, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.form-control {
   margin-bottom: 0;
   padding: 0;
   border: none;
 }
 
-/* line 93, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 93, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.form-control:not([class*="col-"]) {
   width: 100%;
 }
 
-/* line 97, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 97, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.form-control.input-group-btn {
   z-index: auto;
 }
 
-/* line 101, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 101, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.form-control.input-group-btn:not(:first-child):not(:last-child) > .btn {
   border-radius: 0;
 }
 
-/* line 110, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 110, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group:not(.input-group-btn), .bootstrap-select.btn-group[class*="col-"] {
   float: none;
   display: inline-block;
   margin-left: 0;
 }
 
-/* line 121, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 121, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.dropdown-menu-right, .bootstrap-select.btn-group[class*="col-"].dropdown-menu-right,
 .row .bootstrap-select.btn-group[class*="col-"].dropdown-menu-right {
   float: right;
 }
 
-/* line 126, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 126, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .form-inline .bootstrap-select.btn-group,
 .form-horizontal .bootstrap-select.btn-group,
 .form-group .bootstrap-select.btn-group {
   margin-bottom: 0;
 }
 
-/* line 132, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 132, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .form-group-lg .bootstrap-select.btn-group.form-control,
 .form-group-sm .bootstrap-select.btn-group.form-control {
   padding: 0;
 }
 
-/* line 136, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 136, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .form-group-lg .bootstrap-select.btn-group.form-control .dropdown-toggle,
 .form-group-sm .bootstrap-select.btn-group.form-control .dropdown-toggle {
   height: 100%;
@@ -124,36 +124,36 @@ select.selectpicker {
   border-radius: inherit;
 }
 
-/* line 146, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 146, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .form-inline .bootstrap-select.btn-group .form-control {
   width: 100%;
 }
 
-/* line 150, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 150, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.disabled,
 .bootstrap-select.btn-group > .disabled {
   cursor: not-allowed;
 }
 
-/* line 154, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 154, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.disabled:focus,
 .bootstrap-select.btn-group > .disabled:focus {
   outline: none !important;
 }
 
-/* line 159, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 159, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.bs-container {
   position: absolute;
   height: 0 !important;
   padding: 0 !important;
 }
 
-/* line 164, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 164, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.bs-container .dropdown-menu {
   z-index: 1060;
 }
 
-/* line 171, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 171, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-toggle .filter-option {
   display: inline-block;
   overflow: hidden;
@@ -161,7 +161,7 @@ select.selectpicker {
   text-align: left;
 }
 
-/* line 178, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 178, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-toggle .caret {
   position: absolute;
   top: 50%;
@@ -170,12 +170,12 @@ select.selectpicker {
   vertical-align: middle;
 }
 
-/* line 187, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 187, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group[class*="col-"] .dropdown-toggle {
   width: 100%;
 }
 
-/* line 192, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 192, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu {
   min-width: 100%;
   -webkit-box-sizing: border-box;
@@ -183,7 +183,7 @@ select.selectpicker {
   box-sizing: border-box;
 }
 
-/* line 196, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 196, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu.inner {
   position: static;
   float: none;
@@ -194,49 +194,49 @@ select.selectpicker {
   box-shadow: none;
 }
 
-/* line 206, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 206, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu li {
   position: relative;
 }
 
-/* line 209, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 209, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu li.active small {
   color: #fff;
 }
 
-/* line 213, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 213, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu li.disabled a {
   cursor: not-allowed;
 }
 
-/* line 217, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 217, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu li a {
   cursor: pointer;
   user-select: none;
 }
 
-/* line 221, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 221, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu li a.opt {
   position: relative;
   padding-left: 2.25em;
 }
 
-/* line 226, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 226, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu li a span.check-mark {
   display: none;
 }
 
-/* line 230, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 230, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu li a span.text {
   display: inline-block;
 }
 
-/* line 235, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 235, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu li small {
   padding-left: 0.5em;
 }
 
-/* line 240, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 240, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu .notify {
   position: absolute;
   bottom: 5px;
@@ -255,7 +255,7 @@ select.selectpicker {
   box-sizing: border-box;
 }
 
-/* line 256, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 256, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .no-results {
   padding: 3px;
   background: #f5f5f5;
@@ -263,19 +263,19 @@ select.selectpicker {
   white-space: nowrap;
 }
 
-/* line 264, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 264, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.fit-width .dropdown-toggle .filter-option {
   position: static;
 }
 
-/* line 268, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 268, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.fit-width .dropdown-toggle .caret {
   position: static;
   top: auto;
   margin-top: -1px;
 }
 
-/* line 276, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 276, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark {
   position: absolute;
   display: inline-block;
@@ -283,17 +283,17 @@ select.selectpicker {
   margin-top: 5px;
 }
 
-/* line 283, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 283, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.show-tick .dropdown-menu li a span.text {
   margin-right: 34px;
 }
 
-/* line 290, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 290, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow.open > .dropdown-toggle {
   z-index: 1061;
 }
 
-/* line 295, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 295, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow .dropdown-toggle:before {
   content: '';
   border-left: 7px solid transparent;
@@ -305,7 +305,7 @@ select.selectpicker {
   display: none;
 }
 
-/* line 306, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 306, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow .dropdown-toggle:after {
   content: '';
   border-left: 6px solid transparent;
@@ -317,7 +317,7 @@ select.selectpicker {
   display: none;
 }
 
-/* line 319, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 319, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow.dropup .dropdown-toggle:before {
   bottom: auto;
   top: -3px;
@@ -325,7 +325,7 @@ select.selectpicker {
   border-bottom: 0;
 }
 
-/* line 326, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 326, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow.dropup .dropdown-toggle:after {
   bottom: auto;
   top: -3px;
@@ -333,31 +333,31 @@ select.selectpicker {
   border-bottom: 0;
 }
 
-/* line 335, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 335, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow.pull-right .dropdown-toggle:before {
   right: 12px;
   left: auto;
 }
 
-/* line 340, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 340, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow.pull-right .dropdown-toggle:after {
   right: 13px;
   left: auto;
 }
 
-/* line 347, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 347, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow.open > .dropdown-toggle:before, .bootstrap-select.show-menu-arrow.open > .dropdown-toggle:after {
   display: block;
 }
 
-/* line 354, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 354, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-searchbox,
 .bs-actionsbox,
 .bs-donebutton {
   padding: 4px 8px;
 }
 
-/* line 360, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 360, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-actionsbox {
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -365,12 +365,12 @@ select.selectpicker {
   box-sizing: border-box;
 }
 
-/* line 364, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 364, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-actionsbox .btn-group button {
   width: 50%;
 }
 
-/* line 369, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 369, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-donebutton {
   float: left;
   width: 100%;
@@ -379,21 +379,26 @@ select.selectpicker {
   box-sizing: border-box;
 }
 
-/* line 374, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 374, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-donebutton .btn-group button {
   width: 100%;
 }
 
-/* line 380, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 380, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-searchbox + .bs-actionsbox {
   padding: 0 8px 4px;
 }
 
-/* line 384, D:/ronnel/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 384, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-searchbox .form-control {
   margin-bottom: 0;
   width: 100%;
   float: none;
+}
+
+/* line 391, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+*:focus {
+  outline: none !important;
 }
 
 /*# sourceMappingURL=../../css/bootstrap-select/bootstrap-select.map */
