@@ -203,8 +203,8 @@ font-size: 14px;
 }
 .section-title{
     padding: 5px 0;
-    margin-bottom: 20px;
-
+    margin-bottom: 15px;
+    margin-top: 25px;
 }
 
 .in-progress{
@@ -218,6 +218,14 @@ font-size: 14px;
     position: absolute;
     border-bottom: 5px solid #4CAF50;
 }
+
+.section{
+  border-bottom: 1px solid #ddd;
+}
+.section:last-child{
+  border-bottom: none;
+}
+
 
 .left-content, .main-content{
   background-color: #fff;
@@ -246,22 +254,15 @@ font-size: 14px;
   margin-top: 20px;
 }
 
-#conversation-header{
-  border-bottom: 1px solid #dddddd;
-}
-
-#conversation-input{
-  border-top: 1px solid #dddddd;
-}
-
 #conversation-header > .row,#conversation-chat > .row,#conversation-input > .row{
 margin:10px 0;
 }
 
+
 .coversation-container{
     overflow: auto;
-    height: calc(100vh - 742px);
-    min-height: calc(100vh - 742px);
+    height: calc(100vh - 650px);
+    min-height: calc(100vh - 650px);
     padding-bottom: 25px;
 }
 .chat-bubble{
@@ -296,6 +297,9 @@ width: 100%;
 text-align: right;
 font-size: 12px;
 margin-bottom: 10px;
+}
+#conversation-input{
+  padding-top: 15px;
 }
 
 /*PM*/

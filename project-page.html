@@ -124,7 +124,7 @@
                         <i class="fa fa-calendar-plus-o fa-2x" aria-hidden="true"></i>
                       </div>
                       <div class="media-body">
-                          <span class="legend">Date Started</span>
+                          <span class="label-title">Date Started</span>
                           <p>February 14, 2017</p>
                       </div>
                     </div>
@@ -135,7 +135,7 @@
                         <i class="fa fa-calendar-check-o fa-2x" aria-hidden="true"></i>
                       </div>
                       <div class="media-body">
-                          <span class="legend">Target</span>
+                          <span class="label-title">Target</span>
                           <p>April 30, 2017</p>
                       </div>
                     </div>
@@ -146,7 +146,7 @@
                         <i class="fa fa-money fa-2x" aria-hidden="true"></i>
                       </div>
                       <div class="media-body">
-                          <span class="legend">Budget</span>
+                          <span class="label-title">Budget</span>
                           <p>£ 10,000</p>
                       </div>
                     </div>
@@ -159,16 +159,18 @@
             <li >
               <a data-toggle="tab" href="#htTab">Hire Translator</a>
             </li>
-            <li class="active">
+            <li>
               <a data-toggle="tab" href="#mTab">Management</a>
             </li>
-            <li>
+            <li class="active">
               <a data-toggle="tab" href="#pdTab">Project Details</a>
             </li>
 
           </ul>
           <div class="pull-right hidden-xs">
-              <button class="btn btn-outline-default btn-lg btn-change-status"><i class="fa fa-pause" aria-hidden="true"></i>Change Project Status</button>
+            <button class="btn btn-outline-default btn-sm btn-change-status" data-toggle="modal" data-target="#changeStatus">
+                  <i class="fa fa-pause" aria-hidden="true"></i>Project Status
+            </button>
           </div>
        </div>
          <div id="res-sub-nav" class="container-fluid hidden-sm hidden-md hidden-lg text-center">
@@ -353,7 +355,7 @@
           </div>
         </div>
 
-        <div id="mTab" class="row tab-pane fade in active">
+        <div id="mTab" class="row tab-pane fade">
           <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
             <div class="left-content ">
               <h3 class="section-title">Conversation</h3>
@@ -376,7 +378,7 @@
           </div>
           <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
             <div class="main-content">
-              <div id="conversation-header">
+              <div id="conversation-header" class="row section">
                 <div class="row">
                   <div class="col-xs-8">
                     <div class="media">
@@ -389,33 +391,33 @@
                             <span class="text-success"><i class="fa fa-circle" aria-hidden="true"></i> Online</span>
                         </div>
                       </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-6">
+                          <ul class="list-unstyled list-inline">
+                          <li><span class="label-title">Languages</span></li>
+                            <li>Spanish</li>
+                            <li>French</li>
+                          </ul>
+                      </div>
+                      <div class="col-xs-6">
+                          <ul class="list-unstyled list-inline">
+                            <li>
+                              <span class="label-title">Skills</span>
+                            </li>
+                            <li>Spanish</li>
+                            <li>French</li>
+                          </ul>
+                      </div>
                     </div>  
                   </div>
                   <div class="col-xs-4">
                     <button type="button" class="btn btn-default">View Profile</button>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-xs-6">
-                      <ul class="list-unstyled list-inline">
-                      <li><span class="label-title">Languages</span></li>
-                        <li>Spanish</li>
-                        <li>French</li>
-                      </ul>
-                  </div>
-                  <div class="col-xs-6">
-                      <ul class="list-unstyled list-inline">
-                        <li>
-                          <span class="label-title">Skills</span>
-                        </li>
-                        <li>Spanish</li>
-                        <li>French</li>
-                      </ul>
-                  </div>
-                </div>
               </div>
-              <div id="conversation-chat">
-                <div class="row coversation-container">
+              <div id="conversation-chat" class="row section">
+                <div class="coversation-container">
 
                   <div class="chat-bubble col-xs-12">
                     <div class="media">
@@ -461,27 +463,93 @@
 
                 </div>
               </div>
-              <div id="conversation-input">
+              <div id="conversation-input" class="row section">
               <div class="row">
-                <form action="project-page_submit" method="get" accept-charset="utf-8">
-                  <div class="form-group">
-                      <textarea class="form-control" rows="3"></textarea>
-                  </div>
-                  <div class="form-group">
-                    <a type="submit" class="btn btn-lg btn-outline-info"><i class="fa fa-paperclip" aria-hidden="true"></i> Attached File</a>
-                    <a type="submit" class="btn btn-lg btn-info pull-right">Send</a>
-                  </div>
-                </form>
+                <div class="col-xs-12">
+                  <form action="project-page_submit" method="get" accept-charset="utf-8">
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                      <a type="submit" class="btn btn-lg btn-outline-info"><i class="fa fa-paperclip" aria-hidden="true"></i> Attached File</a>
+                      <a type="submit" class="btn btn-lg btn-info pull-right">Send</a>
+                    </div>
+                  </form>
+                </div>
               </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div id="pdTab" class="row tab-pane fade">
+        <div id="pdTab" class="row tab-pane fade in active">
           <div class="col-xs-12">
             <div class="main-content">
-            asdasdasd
+              <div class="row section">
+                <div class="col-lg-6">
+                  <h3 class="section-title">About</h3>
+                  <p>
+                  Realtid Ltd is a London based export consultancy which includes Yazyk Translations (global translation agency since 2011) and Realtid software (content marketing, social and analytics platform).
+                  </p>
+                </div>
+                <div class="col-lg-6">
+                  <h3 class="section-title">Details</h3>
+                  <div class="row">
+                  <div class="col-xs-4">
+                    <div class="media">
+                      <div class="media-left">
+                        <i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="media-body">
+                          <span class="label-title">Date Started</span>
+                          <p>February 14, 2017</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-4">
+                    <div class="media">
+                      <div class="media-left">
+                        <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                      </div>
+                      <div class="media-body">
+                          <span class="label-title">Target</span>
+                          <p>April 30, 2017</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-4">
+                    <div class="media">
+                      <div class="media-left ">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+                      </div>
+                      <div class="media-body">
+                          <span class="label-title">Budget</span>
+                          <p>£ 10,000</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+               <div class="row section">
+                <div class="col-lg-6">
+                  <h3 class="section-title">Language Needed</h3>
+                    <ul class="list-unstyled">
+                      <li>English <span class="label label-default">Mother tongue</span></li>
+                      <li>Spanish</li>
+                      <li>French</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                  <h3 class="section-title">Skills Needed</h3>
+                  <ul class="list-unstyled">
+                    <li>Copywritting</li>
+                    <li>Voice-Over</li>
+                    <li>Transcription</li>
+                  </ul>
+                </div>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -493,11 +561,69 @@
         Footer
       </div>
     </footer>
-
+    <!-- Change Project Status Modal -->
+    <div class="modal fade" id="changeStatus" tabindex="-1" role="dialog" aria-labelledby="changeStatus">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Project Status</h4>
+          </div>
+          <div class="modal-body text-center">
+              <h3 class="section-title">Japanese content for Promo  <span class="label label-success">in progress</span></h3>
+              <p>
+              <span>Note: Changing project status will take effect automatically.</span>
+              <br /><br />
+                <select class="selectpicker testing dropAuto" >
+                  <option value="start-project" data-icon="fa fa-play">Start and In Progress</option>
+                  <option value="pause-project" data-icon="fa fa-pause">Pause this Project</option>
+                  <option value="stop-project" data-icon="fa fa-stop">Stop the Project</option>
+                </select>
+              </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script>
+     var firstSP =  $('.selectpicker').val();
+      console.log('firstSP ',firstSP);
+
+    if(firstSP == "start-project"){
+      $('.selectpicker').selectpicker('setStyle', 'btn-warning btn-danger', 'remove');
+      $('.selectpicker').selectpicker('setStyle', 'btn-success');
+    }else if (firstSP == "pause-project") {
+      $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
+      $('.selectpicker').selectpicker('setStyle', 'btn-warning');    
+    }else if (firstSP == "stop-project") {
+      $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
+      $('.selectpicker').selectpicker('setStyle', 'btn-danger');    
+    }
+
+$('.selectpicker').on('changed.bs.select', function () {
+       var sp =  $('.selectpicker').val();
+
+     console.log('second ',sp);
+    if(sp == "start-project"){
+      $('.selectpicker').selectpicker('setStyle', 'btn-warning btn-danger', 'remove');
+      $('.selectpicker').selectpicker('setStyle', 'btn-success');
+    }else if (sp == "pause-project") {
+      $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
+      $('.selectpicker').selectpicker('setStyle', 'btn-warning');    
+    }else if (sp == "stop-project") {
+      $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
+      $('.selectpicker').selectpicker('setStyle', 'btn-danger');    
+    }
+});
+    </script>
   </body>
 </html>
