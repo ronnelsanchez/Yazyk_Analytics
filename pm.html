@@ -384,7 +384,7 @@
               <p>
               <span>Note: Changing project status will take effect automatically.</span>
               <br /><br />
-                <select class="selectpicker testing dropAuto" >
+                <select class="selectpicker dropAuto" >
                   <option value="start-project" data-icon="fa fa-play">Start and In Progress</option>
                   <option value="pause-project" data-icon="fa fa-pause">Pause this Project</option>
                   <option value="stop-project" data-icon="fa fa-stop">Stop the Project</option>
@@ -405,24 +405,21 @@
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap-select.js"></script>
     <script>
-     var firstSP =  $('.selectpicker').val();
-      console.log('firstSP ',firstSP);
+     var fSP =  $('.selectpicker').val();
 
-    if(firstSP == "start-project"){
+    if(fSP == "start-project"){
       $('.selectpicker').selectpicker('setStyle', 'btn-warning btn-danger', 'remove');
       $('.selectpicker').selectpicker('setStyle', 'btn-success');
-    }else if (firstSP == "pause-project") {
+    }else if (fSP == "pause-project") {
       $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
       $('.selectpicker').selectpicker('setStyle', 'btn-warning');    
-    }else if (firstSP == "stop-project") {
+    }else if (fSP == "stop-project") {
       $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
       $('.selectpicker').selectpicker('setStyle', 'btn-danger');    
     }
 
 $('.selectpicker').on('changed.bs.select', function () {
        var sp =  $('.selectpicker').val();
-
-     console.log('second ',sp);
     if(sp == "start-project"){
       $('.selectpicker').selectpicker('setStyle', 'btn-warning btn-danger', 'remove');
       $('.selectpicker').selectpicker('setStyle', 'btn-success');

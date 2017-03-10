@@ -2038,46 +2038,46 @@ a.text-primary:focus {
 
 /* line 5, D:/web-projects/Yazyk_Analytics/scss/bootstrap/mixins/_text-emphasis.scss */
 .text-success {
-  color: #3c763d;
+  color: #4CAF50;
 }
 
 /* line 8, D:/web-projects/Yazyk_Analytics/scss/bootstrap/mixins/_text-emphasis.scss */
 a.text-success:hover,
 a.text-success:focus {
-  color: #2b542c;
+  color: #3d8b40;
 }
 
 /* line 5, D:/web-projects/Yazyk_Analytics/scss/bootstrap/mixins/_text-emphasis.scss */
 .text-info {
-  color: #31708f;
+  color: #00B0FF;
 }
 
 /* line 8, D:/web-projects/Yazyk_Analytics/scss/bootstrap/mixins/_text-emphasis.scss */
 a.text-info:hover,
 a.text-info:focus {
-  color: #245269;
+  color: #008dcc;
 }
 
 /* line 5, D:/web-projects/Yazyk_Analytics/scss/bootstrap/mixins/_text-emphasis.scss */
 .text-warning {
-  color: #8a6d3b;
+  color: #FBC02D;
 }
 
 /* line 8, D:/web-projects/Yazyk_Analytics/scss/bootstrap/mixins/_text-emphasis.scss */
 a.text-warning:hover,
 a.text-warning:focus {
-  color: #66512c;
+  color: #f0ad05;
 }
 
 /* line 5, D:/web-projects/Yazyk_Analytics/scss/bootstrap/mixins/_text-emphasis.scss */
 .text-danger {
-  color: #a94442;
+  color: #FF1744;
 }
 
 /* line 8, D:/web-projects/Yazyk_Analytics/scss/bootstrap/mixins/_text-emphasis.scss */
 a.text-danger:hover,
 a.text-danger:focus {
-  color: #843534;
+  color: #e3002c;
 }
 
 /* line 119, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_type.scss */
@@ -9171,7 +9171,7 @@ tbody.collapse.in {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 12px;
+  font-size: 14px;
   text-align: left;
   background-color: #fff;
   border: 1px solid #ccc;
@@ -9199,7 +9199,7 @@ tbody.collapse.in {
 /* line 65, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_dropdowns.scss */
 .dropdown-menu > li > a {
   display: block;
-  padding: 3px 20px;
+  padding: 10px 20px;
   clear: both;
   font-weight: normal;
   line-height: 1.42857;
@@ -11689,6 +11689,105 @@ a.thumbnail.active {
   list-style: none;
 }
 
+/* line 4, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.list {
+  margin-bottom: 30px;
+}
+
+/* line 6, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.list li {
+  padding: 5px 0;
+}
+
+/* line 12, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.list-icon.list-icon-lg li {
+  padding: 5px 0 5px 45px;
+}
+
+/* line 14, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.list-icon.list-icon-lg li:before {
+  font-family: "FontAwesome";
+  position: absolute;
+  left: 15px;
+  width: 45px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 28px;
+}
+
+/* line 25, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.list-icon li {
+  padding: 5px 0 5px 30px;
+}
+
+/* line 27, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.list-icon li:before {
+  font-family: "FontAwesome";
+  position: absolute;
+  left: 15px;
+  width: 21px;
+  text-align: center;
+}
+
+/* line 38, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.icon-date-start:before {
+  content: "";
+}
+
+/* line 41, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.icon-date-end:before {
+  content: "";
+}
+
+/* line 44, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.icon-money:before {
+  content: "";
+}
+
+/* line 47, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.icon-globe:before {
+  content: "";
+}
+
+/* line 50, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.icon-email:before {
+  content: "";
+}
+
+/* line 53, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.icon-phone:before {
+  content: "";
+}
+
+/* line 56, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.icon-mobile:before {
+  content: "";
+  font-size: 19px;
+  line-height: 23px;
+}
+
+/* line 61, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.icon-location:before {
+  content: "";
+  font-size: 17px;
+  line-height: 19px;
+}
+
+/* line 66, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.icon-user:before {
+  content: "";
+}
+
+/* line 69, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.icon-facebook:before {
+  content: "";
+}
+
+/* line 72, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list.scss */
+.icon-twitter:before {
+  content: "";
+}
+
 /* line 10, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_list-group.scss */
 .list-group {
   margin-bottom: 20px;
@@ -12762,30 +12861,32 @@ select.selectpicker {
 .bootstrap-select.btn-group .dropdown-menu li a {
   cursor: pointer;
   user-select: none;
+  word-break: break-word;
+  white-space: normal;
 }
 
-/* line 221, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 222, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu li a.opt {
   position: relative;
   padding-left: 2.25em;
 }
 
-/* line 226, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 227, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu li a span.check-mark {
   display: none;
 }
 
-/* line 230, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 231, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu li a span.text {
   display: inline-block;
 }
 
-/* line 235, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 236, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu li small {
   padding-left: 0.5em;
 }
 
-/* line 240, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 241, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .dropdown-menu .notify {
   position: absolute;
   bottom: 5px;
@@ -12804,7 +12905,7 @@ select.selectpicker {
   box-sizing: border-box;
 }
 
-/* line 256, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 257, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group .no-results {
   padding: 3px;
   background: #f5f5f5;
@@ -12812,19 +12913,19 @@ select.selectpicker {
   white-space: nowrap;
 }
 
-/* line 264, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 265, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.fit-width .dropdown-toggle .filter-option {
   position: static;
 }
 
-/* line 268, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 269, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.fit-width .dropdown-toggle .caret {
   position: static;
   top: auto;
   margin-top: -1px;
 }
 
-/* line 276, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 277, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark {
   position: absolute;
   display: inline-block;
@@ -12832,17 +12933,17 @@ select.selectpicker {
   margin-top: 5px;
 }
 
-/* line 283, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 284, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.btn-group.show-tick .dropdown-menu li a span.text {
   margin-right: 34px;
 }
 
-/* line 290, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 291, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow.open > .dropdown-toggle {
   z-index: 1061;
 }
 
-/* line 295, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 296, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow .dropdown-toggle:before {
   content: '';
   border-left: 7px solid transparent;
@@ -12854,7 +12955,7 @@ select.selectpicker {
   display: none;
 }
 
-/* line 306, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 307, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow .dropdown-toggle:after {
   content: '';
   border-left: 6px solid transparent;
@@ -12866,7 +12967,7 @@ select.selectpicker {
   display: none;
 }
 
-/* line 319, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 320, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow.dropup .dropdown-toggle:before {
   bottom: auto;
   top: -3px;
@@ -12874,7 +12975,7 @@ select.selectpicker {
   border-bottom: 0;
 }
 
-/* line 326, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 327, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow.dropup .dropdown-toggle:after {
   bottom: auto;
   top: -3px;
@@ -12882,31 +12983,31 @@ select.selectpicker {
   border-bottom: 0;
 }
 
-/* line 335, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 336, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow.pull-right .dropdown-toggle:before {
   right: 12px;
   left: auto;
 }
 
-/* line 340, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 341, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow.pull-right .dropdown-toggle:after {
   right: 13px;
   left: auto;
 }
 
-/* line 347, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 348, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bootstrap-select.show-menu-arrow.open > .dropdown-toggle:before, .bootstrap-select.show-menu-arrow.open > .dropdown-toggle:after {
   display: block;
 }
 
-/* line 354, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 355, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-searchbox,
 .bs-actionsbox,
 .bs-donebutton {
   padding: 4px 8px;
 }
 
-/* line 360, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 361, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-actionsbox {
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -12914,12 +13015,12 @@ select.selectpicker {
   box-sizing: border-box;
 }
 
-/* line 364, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 365, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-actionsbox .btn-group button {
   width: 50%;
 }
 
-/* line 369, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 370, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-donebutton {
   float: left;
   width: 100%;
@@ -12928,24 +13029,24 @@ select.selectpicker {
   box-sizing: border-box;
 }
 
-/* line 374, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 375, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-donebutton .btn-group button {
   width: 100%;
 }
 
-/* line 380, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 381, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-searchbox + .bs-actionsbox {
   padding: 0 8px 4px;
 }
 
-/* line 384, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 385, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 .bs-searchbox .form-control {
   margin-bottom: 0;
   width: 100%;
   float: none;
 }
 
-/* line 391, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
+/* line 392, D:/web-projects/Yazyk_Analytics/scss/bootstrap-select/bootstrap-select.scss */
 *:focus {
   outline: none !important;
 }
@@ -13136,6 +13237,81 @@ select.selectpicker {
   /* line 149, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
   .modal-lg {
     width: 900px;
+  }
+}
+
+/* line 154, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+.modal-fullscreen {
+  background: transparent;
+}
+
+/* line 156, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+.modal-fullscreen .modal-content {
+  background: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 162, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+.modal-fullscreen .modal-dialog {
+  margin: 40px 0 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+/* line 168, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+.modal-fullscreen .close {
+  float: right;
+  position: absolute;
+  right: 25px;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1;
+  color: #455A64;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 1;
+}
+
+/* line 178, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+.modal-fullscreen .close :after {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  content: "ESC";
+}
+
+/* line 187, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #ffffff;
+}
+
+/* line 190, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: 1;
+  filter: alpha(opacity=1);
+}
+
+/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
+@media (min-width: 768px) {
+  /* line 198, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* line 203, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 208, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+  .modal-fullscreen .modal-dialog {
+    width: 970px;
   }
 }
 

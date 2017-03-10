@@ -148,3 +148,64 @@
 @media (min-width: $screen-md-min) {
   .modal-lg { width: $modal-lg; }
 }
+
+// Modal Fullscreen
+
+.modal-fullscreen {
+  background: transparent;
+  .modal-content {
+  background: transparent;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  }
+  .modal-dialog {
+    margin: 40px 0 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+  }
+  .close{
+    float: right;
+    position: absolute;
+    right: 25px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1;
+    color: $gray-base;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    :after{
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      content: "ESC";
+    }
+  }
+}
+
+.modal-backdrop.modal-backdrop-fullscreen {
+  background: #ffffff;
+}
+.modal-backdrop.modal-backdrop-fullscreen.in {
+  opacity: 1;
+  filter: alpha(opacity=1);
+}
+
+
+/* .modal-fullscreen size: we use Bootstrap media query breakpoints */
+@media (min-width: 768px) {
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .modal-fullscreen .modal-dialog {
+    width: 750px;
+  }
+}
+@media (min-width: 1200px) {
+  .modal-fullscreen .modal-dialog {
+    width: 970px;
+  }
+}

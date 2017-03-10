@@ -217,7 +217,8 @@ select.selectpicker {
       a {
         cursor: pointer;
         user-select: none;
-
+        word-break: break-word;
+        white-space: normal;
         &.opt {
           position: relative;
           padding-left: 2.25em;

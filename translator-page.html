@@ -1,0 +1,391 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>My Projects | Yazyk Analytics Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/yazyk-ronnelsanchez.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/datepicker/datepicker.css" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  <body>
+    <header id="global-nav" class="navbar navbar-default">
+        <nav role="navigation">
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+
+
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+             <img class="brand-logo" width="125" src="images/yzalogo.jpg">
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="#">Projects</a>
+                </li>
+                <li class="active">
+                  <a href="#">Hire Translator</a>
+                </li>
+                <li>
+                  <a href="#">Profile</a>
+                </li>
+              </ul>
+              <ul id="right-nav" class="nav navbar-nav navbar-right">
+               <li class="nav-divider"></li>
+                <li>
+                  <button class="btn btn-primary btn-lg hidden-xs new-project-nav" data-toggle="modal" data-target="#newProject" data-backdrop="static">New Project</button>
+                  <button class="btn btn-primary btn-lg hidden-sm hidden-md hidden-lg btn-block" data-toggle="modal" data-target="#newProject" data-backdrop="static">New Project</button>
+                </li>
+               <li class="nav-divider"></li>
+                <li>
+                  <div class="user-nav dropdown">
+                    <a data-toggle="dropdown" href="#">
+                      <div class="media">
+                        <div class="media-left media-middle">
+                          <img width="40" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                          <i class="fa fa-fw  hidden-xs" aria-hidden="true" title="Copy to use caret-down"></i>
+                        </div>
+                      <div class="media-body media-middle hidden-sm hidden-md hidden-lg">
+                          <div class="user-company">
+                          <strong>Ronnel Sanchez
+                            <i class="fa fa-fw pull-right" aria-hidden="true" title="Copy to use caret-down"></i>
+                          </strong>
+                        </div><div class="user-email">ronnel.sanchez@gmail.com</div>
+                      </div>
+                    </div>
+                    </a>
+                        <ul class="dropdown-menu">
+                        <li>
+                         <div class="user-media media hidden-xs">
+                              <div class="media-left media-middle">
+                                <img width="60" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                              </div>
+                            <div class="media-body media-middle">
+                                <div class="user-company">
+                                <strong>Ronnel Sanchez</strong>
+                              </div><div class="user-email">ronnel.sanchez@gmail.com</div>
+                            </div>
+                          </div>
+                          <a href="#">View Profile</a>
+                        </li>
+                        <li class="nav-divider"></li>
+                        <li><a href="#">Log Out</a></li>
+                      </ul>
+                  </div>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+    </header>
+    <div id="banner" class="navbar navbar-secondary">
+      <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <div class="heading">
+                  <h1>Translator</h1>
+                </div>
+            </div>
+          </div>
+       </div>
+         
+        </div>
+      </nav>
+    </div>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="main-content">
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                  <div class="text-center">
+                    <img  class="img-responsive img-thumbnail" src="images/company.png" style="margin-top: -35px;">
+                    <br />
+                    <a href="" class="btn btn-link" data-toggle="modal" data-target="#rateMe"><h4 class="text-warning">5.0 <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></h4></a>
+                    <div class="hidden-sm hidden-md hidden-lg">
+                      <h2 class="section-title">Translator Name <span class="label label-success">Available</span>
+                      </h2>
+                      <button type="button" class="btn btn-primary"  data-toggle="modal" data-target="#inviteProject" data-backdrop="static">Invite to Project</button>
+                      <br /> <br /> <br />
+                    </div>
+                  </div>
+
+                    <ul class="list-unstyled list-icon">
+                    <li class="icon-email">
+                      <div>
+                        <span class="label-title">Email</span>
+                        <p>company@email.com</p>
+                      </div>
+                    </li>
+                    <li class="icon-phone">
+                      <div>
+                        <span class="label-title">Phone</span>
+                        <p>123-456-789</p>
+                      </div>
+                    </li>
+                    <li class="icon-mobile">
+                      <div>
+                        <span class="label-title">Mobile</span>
+                        <p>+6391234567</p>
+                      </div>
+                    </li>
+                   
+                  </ul>
+
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+              <div class="hidden-xs">
+                <h2 class="section-title">Translator Name <span class="label label-success">Available</span>
+                  <button type="button" class="btn btn-primary pull-right"  data-toggle="modal" data-target="#inviteProject" data-backdrop="static">Invite to Project</button>
+                </h2>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <h4 class="section-title">Language</h4>
+                  <ul class="list list-unstyled">
+                    <li>English <span class="label label-default">Mother tongue</span></li>
+                    <li>Spanish</li>
+                    <li>French</li>
+                  </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <h4 class="section-title">Skills</h4>
+                  <ul class="list list-unstyled">
+                    <li>Copywritting</li>
+                    <li>Voice-Over</li>
+                    <li>Transcription</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <h4 class="section-title">Industry Experience</h4>
+                  <ul class="list list-unstyled">
+                    <li>English</li>
+                    <li>Spanish</li>
+                    <li>French</li>
+                  </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <h4 class="section-title">Years of Experience</h4>
+                  <span>5+ Years</span>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-xs-12">
+                  <h4 class="section-title">About Me</h4>
+                  <p>
+                  Realtid Ltd is a London based export consultancy which includes Yazyk Translations (global translation agency since 2011) and Realtid software (content marketing, social and analytics platform).
+                  </p>
+                </div>
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="main-content">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h3 class="section-title">Current Project</h3>
+                  <ul class="list-unstyled">
+                    <li>
+                      <p>
+                        <h4>Japanese content for Promo</h4>
+                        <p>Realtid Ltd is a London based export consultancy which includes Yazyk Translations (global translation agency since 2011) and Realtid software (content marketing, social and analytics platform).
+                        </p>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="main-content">
+              <div class="row">
+                <div class="col-xs-12">
+                  <h3 class="section-title">Reviews</h3>
+                  <ul class="list-unstyled">
+                    <li>
+                      <p>
+                      <h4>Company Name - Project</h4>
+                      <span class="text-warning">5.0 <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></span>
+                      <p>Realtid Ltd is a London based export consultancy which includes Yazyk Translations (global translation agency since 2011) and Realtid software (content marketing, social and analytics platform).
+                      </p>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+<footer>
+  <div class="container">
+  Footer
+  </div>
+</footer>
+
+<!-- New Project Modal -->
+<div class="modal modal-fullscreen fade" id="newProject" tabindex="-1" role="dialog" aria-labelledby="newProject">
+  <button type="button pull-right" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">New Project</h4>
+      </div>
+      <div class="modal-body">
+       <form> 
+        <h3 class="section-title">About your Project</h3>
+         <div class="form-group"> 
+           <label  class="control-label label-title">Project Name:</label> 
+           <input class="form-control input-lg" > 
+         </div> 
+         <div class="form-group"> 
+           <label  class="control-label label-title">Describe your project:</label> 
+           <textarea class="form-control" ></textarea>
+         </div>
+         <h3 class="section-title">Project Timeline</h3>
+          <div class="form-group form-horizontal" id="sandbox-container"> 
+           <label  class="control-label label-title">Start Date:</label> 
+            <div class="input-group date">
+              <input type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
+            </div>
+         </div>
+          <h3 class="section-title">Required</h3>
+          <div class="form-group form-horizontal"> 
+           <label  class="control-label label-title">Project Name:</label> 
+           <input class="form-control input-lg" > 
+         </div>    
+       </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit Invitation</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Invite to Project -->
+<div class="modal fade" id="inviteProject" tabindex="-1" role="dialog" aria-labelledby="inviteProject">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title">Invite to Project</h4>
+
+      </div>
+      <div class="modal-body text-center">
+          <h3 class="section-title">Invite <strong>Translator Name</strong> to your project.</h3>
+          <p>
+          <span>Select a project to invite.</span>
+          <br /><br />
+           <select class="selectProject dropAuto" data-width="70%" data-title="Project List">
+                  <option value="">Japanese content for Promo</option>
+                  <option value="">Italian Translation for Company about page website</option>
+                  <option value="">French Translator</option>
+          </select>
+          </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Submit Invitation</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Rate -->
+<div class="modal fade" id="rateMe" tabindex="-1" role="dialog" aria-labelledby="rateMe">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        <h4 class="modal-title">Write a Review</h4>
+
+      </div>
+      <div class="modal-body text-center">
+          <p>
+          <h4 class="section-title">What can you say about <strong>Translator Name</strong> service.</h4>
+          <form action="rate_submit" method="get" accept-charset="utf-8">
+            <div class="form-group">
+                <textarea class="form-control" rows="3"></textarea>
+            </div>
+           </form>
+           <br />
+          <h4>Rate my service</h4>
+          <a href="" class="btn btn-link" ><span class="text-warning"><i class="fa  fa-star-o fa-3x"></i><i class="fa  fa-star-o fa-3x"></i><i class="fa  fa-star-o fa-3x"></i><i class="fa  fa-star-o fa-3x"></i><i class="fa  fa-star-o fa-3x"></i></span></a>
+          </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+        <button type="button" class="btn btn-primary">Submit Review</button>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-select.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script>
+      $('#sandbox-container .input-group.date').datepicker({
+          todayHighlight: true,
+          toggleActive: true
+      });
+      $('.selectProject').selectpicker('setStyle', 'btn-lg btn-default');
+
+    </script>
+  </body>
+</html>

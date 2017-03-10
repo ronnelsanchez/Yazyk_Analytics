@@ -119,40 +119,36 @@
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div id="project-media" class="row">
                   <div class="col-xs-4">
-                    <div class="media">
-                      <div class="media-left media-middle">
-                        <i class="fa fa-calendar-plus-o fa-2x" aria-hidden="true"></i>
+                   <ul class="list-unstyled list-icon list-icon-lg">
+                    <li class="icon-date-start">
+                      <div>
+                        <span class="label-title">Date Started</span>
+                        <p>February 14, 2017</p>
                       </div>
-                      <div class="media-body">
-                          <span class="label-title">Date Started</span>
-                          <p>February 14, 2017</p>
-                      </div>
-                    </div>
+                    </li>
+                  </ul>
                   </div>
                   <div class="col-xs-4">
-                    <div class="media">
-                      <div class="media-left media-middle">
-                        <i class="fa fa-calendar-check-o fa-2x" aria-hidden="true"></i>
+                    <ul class="list-unstyled list-icon list-icon-lg">
+                    <li class="icon-date-end">
+                      <div>
+                        <span class="label-title">Target Date</span>
+                        <p>April 30, 2017</p>
                       </div>
-                      <div class="media-body">
-                          <span class="label-title">Target</span>
-                          <p>April 30, 2017</p>
-                      </div>
-                    </div>
+                    </li>
+                  </ul>
                   </div>
                   <div class="col-xs-4">
-                    <div class="media">
-                      <div class="media-left media-middle">
-                        <i class="fa fa-money fa-2x" aria-hidden="true"></i>
+                    <ul class="list-unstyled list-icon list-icon-lg">
+                    <li class="icon-money">
+                      <div>
+                        <span class="label-title">Budget</span>
+                        <p>£ 10,000</p>
                       </div>
-                      <div class="media-body">
-                          <span class="label-title">Budget</span>
-                          <p>£ 10,000</p>
-                      </div>
-                    </div>
+                    </li>
+                  </ul>
                   </div>
                 </div>
-
             </div>
           </div>
           <ul id="sub-nav" class="nav nav-tabs-secondary hidden-xs">
@@ -167,11 +163,11 @@
             </li>
 
           </ul>
-          <div class="pull-right hidden-xs">
+          <!--div class="pull-right hidden-xs">
             <button class="btn btn-outline-default btn-sm btn-change-status" data-toggle="modal" data-target="#changeStatus">
                   <i class="fa fa-pause" aria-hidden="true"></i>Project Status
             </button>
-          </div>
+          </div-->
        </div>
          <div id="res-sub-nav" class="container-fluid hidden-sm hidden-md hidden-lg text-center">
             <a data-toggle="collapse" href="#collapseSubNav" class="collapsed" aria-expanded="false">
@@ -190,7 +186,7 @@
                   </li>
          
                  </ul>
-                 <button class="btn btn-outline-default btn-lg btn-block res-btn-change-status"><i class="fa fa-pause" aria-hidden="true"></i>Change Project Status</button>
+                 <!--button class="btn btn-outline-default btn-lg btn-block res-btn-change-status"><i class="fa fa-pause" aria-hidden="true"></i>Change Project Status</button-->
               </div>
           </div>
     </nav>
@@ -210,24 +206,24 @@
                     Language
                   </span>
                   <ul class="list-unstyled">
-                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
-                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
-                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> English </label></li>
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Italian </label></li>
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> French </label></li>
                   </ul>
                 </section>
                 <section class="filter-list">
                   <span class="label-title">
-                    Language
+                    Skills
                   </span>
                   <ul class="list-unstyled">
-                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
-                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
-                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Copywritting </label></li>
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Voice-Over </label></li>
+                    <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Transcription </label></li>
                   </ul>
                 </section>
                 <section class="filter-list">
                   <span class="label-title">
-                    Language
+                    Industry
                   </span>
                   <ul class="list-unstyled">
                     <li class="checkbox"><label> <input type="checkbox" id="checkboxSuccess" value="option1"> Checkbox with success </label></li>
@@ -272,7 +268,7 @@
                       
                     </div>
                     <div class="translator-action col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                      <button type="button" class="btn btn-primary btn-block">Invite to Project</button>
+                      <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#inviteProject" data-backdrop="static">Invite to Project</button>
                       <button type="button" class="btn btn-default btn-block">View Profile</button>
                     </div>
                   </div>
@@ -310,7 +306,7 @@
                       
                     </div>
                     <div class="translator-action col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                      <button type="button" class="btn btn-primary btn-block">Invite to Project</button>
+                      <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#inviteProject" data-backdrop="static">Invite to Project</button>
                       <button type="button" class="btn btn-default btn-block">View Profile</button>
                     </div>
                   </div>
@@ -345,7 +341,7 @@
                       
                     </div>
                     <div class="translator-action col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                      <button type="button" class="btn btn-primary btn-block">Invite to Project</button>
+                      <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#inviteProject" data-backdrop="static">Invite to Project</button>
                       <button type="button" class="btn btn-default btn-block">View Profile</button>
                     </div>
                   </div>
@@ -358,20 +354,23 @@
         <div id="mTab" class="row tab-pane fade">
           <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
             <div class="left-content ">
-              <h3 class="section-title">Conversation</h3>
-              <ul class="list-unstyled list-conversation">
+              <h3 class="section-title hidden-xs">Conversation</h3>
+              <ul class="list-unstyled list-chat">
                 <li>
-                 <div class="user-media media">
-                  <div class="media-left media-middle">
-                    <img width="60" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
+                <a href="">
+                 <div class="chat-media">
+                  <div class="user-avatar">
+                    <img width="60" class="img-circle" src="images/company.png" alt=".img-circle">
+                    <div class="chat-status"><i class="fa fa-circle text-success" aria-hidden="true"></i></div> 
                   </div>
-                  <div class="media-body media-middle">
-                    <div class="user-company">
-                        <strong><i class="fa fa-circle text-success" aria-hidden="true"></i> Ronnel Sanchez</strong>
+                  <div class="user-container">
+                    <div class="user-name">
+                        <strong>Ronnel Sanchez</strong>
                     </div>
-                    <div class="user-email">This is a Message</div>
+                    <div class="chat-message">Realtid Ltd is a London based export consultancy which includes Yazyk </div>
                   </div>
-                  </div>  
+                  </div>
+                  </a>  
                 </li>
               </ul>
             </div>
@@ -380,7 +379,7 @@
             <div class="main-content">
               <div id="conversation-header" class="row section">
                 <div class="row">
-                  <div class="col-xs-8">
+                  <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
                     <div class="media">
                       <div class="media-left media-middle">
                         <img width="60" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
@@ -392,27 +391,13 @@
                         </div>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-xs-6">
-                          <ul class="list-unstyled list-inline">
-                          <li><span class="label-title">Languages</span></li>
-                            <li>Spanish</li>
-                            <li>French</li>
-                          </ul>
-                      </div>
-                      <div class="col-xs-6">
-                          <ul class="list-unstyled list-inline">
-                            <li>
-                              <span class="label-title">Skills</span>
-                            </li>
-                            <li>Spanish</li>
-                            <li>French</li>
-                          </ul>
-                      </div>
-                    </div>  
                   </div>
-                  <div class="col-xs-4">
-                    <button type="button" class="btn btn-default">View Profile</button>
+                  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 text-center">
+                  <br class="hidden-sm hidden-md hidden-lg" />
+                    <button type="button" class="btn btn-default btn-block btn-lg">View Profile</button>
+
+                    <button type="button" class="btn btn-link btn-lg">Remove from this project</button>
+
                   </div>
                 </div>
               </div>
@@ -496,37 +481,34 @@
                   <h3 class="section-title">Details</h3>
                   <div class="row">
                   <div class="col-xs-4">
-                    <div class="media">
-                      <div class="media-left">
-                        <i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
+                   <ul class="list-unstyled list-icon">
+                    <li class="icon-date-start">
+                      <div>
+                        <span class="label-title">Date Started</span>
+                        <p>February 14, 2017</p>
                       </div>
-                      <div class="media-body">
-                          <span class="label-title">Date Started</span>
-                          <p>February 14, 2017</p>
-                      </div>
-                    </div>
+                    </li>
+                  </ul>
                   </div>
                   <div class="col-xs-4">
-                    <div class="media">
-                      <div class="media-left">
-                        <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                    <ul class="list-unstyled list-icon">
+                    <li class="icon-date-end">
+                      <div>
+                        <span class="label-title">Target Date</span>
+                        <p>April 30, 2017</p>
                       </div>
-                      <div class="media-body">
-                          <span class="label-title">Target</span>
-                          <p>April 30, 2017</p>
-                      </div>
-                    </div>
+                    </li>
+                  </ul>
                   </div>
                   <div class="col-xs-4">
-                    <div class="media">
-                      <div class="media-left ">
-                        <i class="fa fa-money" aria-hidden="true"></i>
+                    <ul class="list-unstyled list-icon">
+                    <li class="icon-money">
+                      <div>
+                        <span class="label-title">Budget</span>
+                        <p>£ 10,000</p>
                       </div>
-                      <div class="media-body">
-                          <span class="label-title">Budget</span>
-                          <p>£ 10,000</p>
-                      </div>
-                    </div>
+                    </li>
+                  </ul>
                   </div>
                 </div>
                 </div>
@@ -534,7 +516,7 @@
                <div class="row section">
                 <div class="col-lg-6">
                   <h3 class="section-title">Language Needed</h3>
-                    <ul class="list-unstyled">
+                    <ul class="list list-unstyled">
                       <li>English <span class="label label-default">Mother tongue</span></li>
                       <li>Spanish</li>
                       <li>French</li>
@@ -542,7 +524,7 @@
                 </div>
                 <div class="col-lg-6">
                   <h3 class="section-title">Skills Needed</h3>
-                  <ul class="list-unstyled">
+                  <ul class="list list-unstyled">
                     <li>Copywritting</li>
                     <li>Voice-Over</li>
                     <li>Transcription</li>
@@ -588,42 +570,34 @@
         </div>
       </div>
     </div>
+    <!-- Invite to Project -->
+    <div class="modal fade" id="inviteProject" tabindex="-1" role="dialog" aria-labelledby="inviteProject">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <h4 class="modal-title">Invite to Project</h4>
+
+          </div>
+          <div class="modal-body text-center">
+              <h3 class="section-title">Invite <strong>Translator Name</strong> to your project.</h3>
+              <p>
+              <button type="button" class="btn btn-primary btn-lg">Submit Invitation</button>
+              <br />
+              </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/bootstrap-select.js"></script>
-    <script>
-     var firstSP =  $('.selectpicker').val();
-      console.log('firstSP ',firstSP);
-
-    if(firstSP == "start-project"){
-      $('.selectpicker').selectpicker('setStyle', 'btn-warning btn-danger', 'remove');
-      $('.selectpicker').selectpicker('setStyle', 'btn-success');
-    }else if (firstSP == "pause-project") {
-      $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
-      $('.selectpicker').selectpicker('setStyle', 'btn-warning');    
-    }else if (firstSP == "stop-project") {
-      $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
-      $('.selectpicker').selectpicker('setStyle', 'btn-danger');    
-    }
-
-$('.selectpicker').on('changed.bs.select', function () {
-       var sp =  $('.selectpicker').val();
-
-     console.log('second ',sp);
-    if(sp == "start-project"){
-      $('.selectpicker').selectpicker('setStyle', 'btn-warning btn-danger', 'remove');
-      $('.selectpicker').selectpicker('setStyle', 'btn-success');
-    }else if (sp == "pause-project") {
-      $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
-      $('.selectpicker').selectpicker('setStyle', 'btn-warning');    
-    }else if (sp == "stop-project") {
-      $('.selectpicker').selectpicker('setStyle', 'btn-success btn-danger', 'remove');
-      $('.selectpicker').selectpicker('setStyle', 'btn-danger');    
-    }
-});
-    </script>
+    
   </body>
 </html>
