@@ -34,8 +34,6 @@
           <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-
-
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
@@ -352,9 +350,11 @@
         </div>
 
         <div id="mTab" class="row tab-pane fade">
-          <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-            <div class="left-content ">
-              <h3 class="section-title hidden-xs">Conversation</h3>
+          <div class="col-xs-12">
+          <div class="main-content condense-content">
+          <div class="row">
+            <div class="col-xs-3 member-panel">
+              <h3 class="section-title hidden-xs">Project Member</h3>
               <ul class="list-unstyled list-chat">
                 <li>
                 <a href="">
@@ -374,16 +374,11 @@
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-            <div class="main-content">
+            <div class="col-xs-9 conversation-panel">
               <div id="conversation-header" class="row section">
                 <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                  <div class="col-xs-6">
                     <div class="media">
-                      <div class="media-left media-middle">
-                        <img width="60" class="img-circle" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDAiIGhlaWdodD0iMTQwIj48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI2VlZSIvPjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjcwIiB5PSI3MCIgc3R5bGU9ImZpbGw6I2FhYTtmb250LXdlaWdodDpib2xkO2ZvbnQtc2l6ZToxMnB4O2ZvbnQtZmFtaWx5OkFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmO2RvbWluYW50LWJhc2VsaW5lOmNlbnRyYWwiPjE0MHgxNDA8L3RleHQ+PC9zdmc+" alt=".img-circle">
-                      </div>
                       <div class="media-body">
                         <div class="user-company">
                             <h4> Ronnel Sanchez</h4>
@@ -392,12 +387,18 @@
                       </div>
                     </div>
                   </div>
-                  <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 text-center">
-                  <br class="hidden-sm hidden-md hidden-lg" />
-                    <button type="button" class="btn btn-default btn-block btn-lg">View Profile</button>
-
-                    <button type="button" class="btn btn-link btn-lg">Remove from this project</button>
-
+                  <div class="col-xs-6">
+                    <ul class="nav nav-tabs-primary" style="display: inline-block;">
+                      <li class="active">
+                        <a data-toggle="tab" href="#chat"><i class="fa fa-comments fa-2x" aria-hidden="true"></i></a>
+                      </li>
+                      <li>
+                        <a data-toggle="tab" href="#email"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                      </li>
+                      <li>
+                        <a href="#removeTranslator"><i class="fa fa-gear fa-2x" aria-hidden="true"></i></a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -464,6 +465,8 @@
               </div>
               </div>
             </div>
+          </div>
+          </div>
           </div>
         </div>
 

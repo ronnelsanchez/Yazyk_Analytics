@@ -9047,7 +9047,15 @@ fieldset[disabled] .btn-link:focus {
   text-decoration: none;
 }
 
-/* line 165, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
+/* line 164, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
+.btn-xl {
+  padding: 15px 40px;
+  font-size: 12px;
+  line-height: 1.33333;
+  border-radius: 25px;
+}
+
+/* line 168, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
 .btn-lg, .btn-group-lg > .btn {
   padding: 10px 16px;
   font-size: 12px;
@@ -9055,7 +9063,7 @@ fieldset[disabled] .btn-link:focus {
   border-radius: 25px;
 }
 
-/* line 169, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
+/* line 172, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn {
   padding: 5px 10px;
   font-size: 12px;
@@ -9063,7 +9071,7 @@ fieldset[disabled] .btn-link:focus {
   border-radius: 25px;
 }
 
-/* line 173, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
+/* line 176, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
 .btn-xs, .btn-group-xs > .btn {
   padding: 1px 5px;
   font-size: 12px;
@@ -9071,18 +9079,18 @@ fieldset[disabled] .btn-link:focus {
   border-radius: 25px;
 }
 
-/* line 181, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
+/* line 184, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%;
 }
 
-/* line 187, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
+/* line 190, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
 .btn-block + .btn-block {
   margin-top: 5px;
 }
 
-/* line 195, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
+/* line 198, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_buttons.scss */
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
@@ -11123,7 +11131,7 @@ fieldset[disabled] .navbar-secondary .btn-link:focus {
 /* line 5, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_labels.scss */
 .label {
   display: inline-block;
-  padding: .2em .9em .3em;
+  padding: .3em .9em .3em;
   font-size: 11px;
   font-weight: 600;
   line-height: 1;

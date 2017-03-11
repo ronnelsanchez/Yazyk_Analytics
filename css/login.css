@@ -3,12 +3,28 @@ html,body,.container-fluid,.row, .row>div{
 }
 
 #promo{
-	background-image: url('../images/banner1.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.promo-1{
+    background-image: url('../images/banner1.jpg');
+}
+.promo-2{
+    background-image: url('../images/banner2.jpg');
+}
+
+
+.login-header{
+        display: table-header-group;
+    vertical-align: middle;
+}
+
+.login-header-right{
+    text-align: right;
+    padding: 25px;
+}
 .login-panel{
 	    display: table;
     width: 100%;
@@ -18,8 +34,6 @@ html,body,.container-fluid,.row, .row>div{
 	    position: relative;
     display: table-cell;
     vertical-align: middle;
-    padding-top: 100px;
-    padding-bottom: 100px;
 
 }
 
@@ -30,4 +44,11 @@ html,body,.container-fluid,.row, .row>div{
     margin: 0 auto;
 }
 .login-panel-content{
-    margin: 20px 0 59px 0;}
+    margin: 20px 0 40px 0;
+}
+
+#termsModal > .modal-dialog > .modal-content > .modal-body{
+    max-height: calc(100vh - 260px);
+    height: 100vh;
+    overflow: auto;
+}

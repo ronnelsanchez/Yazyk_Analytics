@@ -247,6 +247,16 @@ font-size: 14px;
   margin-bottom: 15px;
 }
 
+.condense-content{
+  padding: 0 15px;
+}
+
+.member-panel{
+
+}
+.conversation-panel{
+  border-left: 1px solid #dddddd;
+}
 .filter-list{
   margin-bottom: 40px;
 }
@@ -266,7 +276,7 @@ font-size: 14px;
 }
 
 #conversation-header > .row,#conversation-chat > .row,#conversation-input > .row{
-margin:10px 0;
+
 }
 
 
