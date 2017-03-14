@@ -114,6 +114,14 @@ footer{
   border-radius: 50%;
 }
 
+.btn-float{
+    margin: 20px 0px;
+    position: absolute;
+    top: -85px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    right: 0;
+}
+
 
 .heading{
 padding: 40px 0 25px;
@@ -275,8 +283,8 @@ font-size: 14px;
   margin-top: 20px;
 }
 
-#conversation-header > .row,#conversation-chat > .row,#conversation-input > .row{
-
+#conversation-header,#conversation-input{
+  padding: 15px;
 }
 
 
@@ -350,6 +358,10 @@ margin-bottom: 10px;
 }
 #conversation-input{
   padding-top: 15px;
+}
+
+.email-header{
+  padding: 15px;
 }
 
 /*PM*/

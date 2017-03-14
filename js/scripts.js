@@ -10,3 +10,11 @@ wrap.on("scroll", function(e) {
   
 });
 
+$('.btn-group-tab .btn').on('click', function(e) {
+  e.preventDefault();
+  $(this)
+    .addClass('active')
+    .tab('show')
+    .siblings('.btn')
+      .removeClass('active');
+});

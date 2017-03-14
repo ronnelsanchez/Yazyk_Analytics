@@ -9947,115 +9947,177 @@ tbody.collapse.in {
   background: #FF9100;
 }
 
-/* line 232, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 230, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-info {
+  background: none !important;
+  color: #455A64;
+}
+
+/* line 235, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-info > li {
+  float: left;
+  margin-bottom: -1px;
+}
+
+/* line 241, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-info > li > a {
+  border: none !important;
+  background: none !important;
+  color: #455A64;
+  padding: 20px 15px;
+}
+
+/* line 246, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-info > li > a:hover {
+  background: none !important;
+  border-color: #CFD8DC #CFD8DC #ddd;
+}
+
+/* line 254, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-info > li.active > a, .nav-tabs-info > li.active > a:hover, .nav-tabs-info > li.active > a:focus {
+  color: #00B0FF;
+  background: none !important;
+}
+
+/* line 262, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-info > li:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 4px;
+  width: 0px;
+  background: transparent;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+/* line 271, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-info > li.active:after, .nav-tabs-info > li:hover:after, .nav-tabs-info > li:focus:after {
+  width: 100%;
+  background: #00B0FF;
+}
+
+/* line 289, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-pills > li {
   float: left;
 }
 
-/* line 236, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 293, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-pills > li > a {
   border-radius: 4px;
 }
 
-/* line 239, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 296, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-pills > li + li {
   margin-left: 2px;
 }
 
-/* line 245, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 302, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
   color: #fff;
   background-color: #FF9100;
 }
 
-/* line 258, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 315, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-stacked > li {
   float: none;
 }
 
-/* line 260, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 317, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-stacked > li + li {
   margin-top: 2px;
   margin-left: 0;
 }
 
-/* line 274, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-.nav-justified, .nav-tabs.nav-justified, .nav-tabs-secondary.nav-justified, .nav-tabs-primary.nav-justified {
+/* line 331, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-justified, .nav-tabs.nav-justified, .nav-tabs-secondary.nav-justified, .nav-tabs-primary.nav-justified, .nav-tabs-info.nav-justified {
   width: 100%;
 }
 
-/* line 277, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-.nav-justified > li, .nav-tabs.nav-justified > li, .nav-tabs-secondary.nav-justified > li, .nav-tabs-primary.nav-justified > li {
+/* line 334, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-justified > li, .nav-tabs.nav-justified > li, .nav-tabs-secondary.nav-justified > li, .nav-tabs-primary.nav-justified > li, .nav-tabs-info.nav-justified > li {
   float: none;
 }
 
-/* line 279, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-.nav-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs-secondary.nav-justified > li > a, .nav-tabs-primary.nav-justified > li > a {
+/* line 336, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs-secondary.nav-justified > li > a, .nav-tabs-primary.nav-justified > li > a, .nav-tabs-info.nav-justified > li > a {
   text-align: center;
   margin-bottom: 5px;
 }
 
-/* line 285, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 342, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-justified > .dropdown .dropdown-menu {
   top: auto;
   left: auto;
 }
 
 @media (min-width: 768px) {
-  /* line 291, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-  .nav-justified > li, .nav-tabs.nav-justified > li, .nav-tabs-secondary.nav-justified > li, .nav-tabs-primary.nav-justified > li {
+  /* line 348, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+  .nav-justified > li, .nav-tabs.nav-justified > li, .nav-tabs-secondary.nav-justified > li, .nav-tabs-primary.nav-justified > li, .nav-tabs-info.nav-justified > li {
     display: table-cell;
     width: 1%;
   }
-  /* line 294, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-  .nav-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs-secondary.nav-justified > li > a, .nav-tabs-primary.nav-justified > li > a {
+  /* line 351, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+  .nav-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs-secondary.nav-justified > li > a, .nav-tabs-primary.nav-justified > li > a, .nav-tabs-info.nav-justified > li > a {
     margin-bottom: 0;
   }
 }
 
-/* line 304, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-.nav-tabs-justified, .nav-tabs.nav-justified, .nav-tabs-secondary.nav-justified, .nav-tabs-primary.nav-justified {
+/* line 361, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-justified, .nav-tabs.nav-justified, .nav-tabs-secondary.nav-justified, .nav-tabs-primary.nav-justified, .nav-tabs-info.nav-justified {
   border-bottom: 0;
 }
 
-/* line 307, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-.nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs-secondary.nav-justified > li > a, .nav-tabs-primary.nav-justified > li > a {
+/* line 364, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs-secondary.nav-justified > li > a, .nav-tabs-primary.nav-justified > li > a, .nav-tabs-info.nav-justified > li > a {
   margin-right: 0;
   border-radius: 4px;
 }
 
-/* line 313, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a, .nav-tabs-secondary.nav-justified > .active > a, .nav-tabs-primary.nav-justified > .active > a,
-.nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs-secondary.nav-justified > .active > a:hover, .nav-tabs-primary.nav-justified > .active > a:hover,
-.nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs-secondary.nav-justified > .active > a:focus, .nav-tabs-primary.nav-justified > .active > a:focus {
+/* line 370, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a, .nav-tabs-secondary.nav-justified > .active > a, .nav-tabs-primary.nav-justified > .active > a, .nav-tabs-info.nav-justified > .active > a,
+.nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs-secondary.nav-justified > .active > a:hover, .nav-tabs-primary.nav-justified > .active > a:hover, .nav-tabs-info.nav-justified > .active > a:hover,
+.nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs-secondary.nav-justified > .active > a:focus, .nav-tabs-primary.nav-justified > .active > a:focus, .nav-tabs-info.nav-justified > .active > a:focus {
   border: 1px solid #ddd;
 }
 
 @media (min-width: 768px) {
-  /* line 320, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-  .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs-secondary.nav-justified > li > a, .nav-tabs-primary.nav-justified > li > a {
+  /* line 377, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+  .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a, .nav-tabs-secondary.nav-justified > li > a, .nav-tabs-primary.nav-justified > li > a, .nav-tabs-info.nav-justified > li > a {
     border-bottom: 1px solid #ddd;
     border-radius: 4px 4px 0 0;
   }
-  /* line 324, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
-  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a, .nav-tabs-secondary.nav-justified > .active > a, .nav-tabs-primary.nav-justified > .active > a,
-  .nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs-secondary.nav-justified > .active > a:hover, .nav-tabs-primary.nav-justified > .active > a:hover,
-  .nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs-secondary.nav-justified > .active > a:focus, .nav-tabs-primary.nav-justified > .active > a:focus {
+  /* line 381, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a, .nav-tabs-secondary.nav-justified > .active > a, .nav-tabs-primary.nav-justified > .active > a, .nav-tabs-info.nav-justified > .active > a,
+  .nav-tabs-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs-secondary.nav-justified > .active > a:hover, .nav-tabs-primary.nav-justified > .active > a:hover, .nav-tabs-info.nav-justified > .active > a:hover,
+  .nav-tabs-justified > .active > a:focus, .nav-tabs.nav-justified > .active > a:focus, .nav-tabs-secondary.nav-justified > .active > a:focus, .nav-tabs-primary.nav-justified > .active > a:focus, .nav-tabs-info.nav-justified > .active > a:focus {
     border-bottom-color: #fff;
   }
 }
 
-/* line 338, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 391, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-center {
+  text-align: center;
+}
+
+/* line 393, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+.nav-tabs-center > li {
+  float: none;
+  display: inline-block;
+}
+
+/* line 404, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .tab-content > .tab-pane {
   display: none;
 }
 
-/* line 341, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 407, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .tab-content > .active {
   display: block;
 }
 
-/* line 351, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
+/* line 417, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_navs.scss */
 .nav-tabs .dropdown-menu {
   margin-top: -1px;
   border-top-right-radius: 0;
@@ -13224,36 +13286,49 @@ select.selectpicker {
   overflow: scroll;
 }
 
+/* line 133, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+.modal-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px 0;
+  border-bottom: 1px solid #dddddd;
+}
+
+/* line 138, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+.modal-section:last-child {
+  border-bottom: none;
+}
+
 @media (min-width: 768px) {
-  /* line 136, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+  /* line 146, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
   }
-  /* line 140, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+  /* line 150, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
-  /* line 145, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+  /* line 155, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
   .modal-sm {
     width: 300px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 149, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+  /* line 159, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
   .modal-lg {
     width: 900px;
   }
 }
 
-/* line 154, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+/* line 164, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
 .modal-fullscreen {
   background: transparent;
 }
 
-/* line 156, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+/* line 166, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
 .modal-fullscreen .modal-content {
   background: transparent;
   border: 0;
@@ -13261,7 +13336,7 @@ select.selectpicker {
   box-shadow: none;
 }
 
-/* line 162, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+/* line 172, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
 .modal-fullscreen .modal-dialog {
   margin: 40px 0 0;
   margin-right: auto;
@@ -13269,7 +13344,7 @@ select.selectpicker {
   width: 100%;
 }
 
-/* line 168, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+/* line 178, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
 .modal-fullscreen .close {
   float: right;
   position: absolute;
@@ -13282,7 +13357,7 @@ select.selectpicker {
   opacity: 1;
 }
 
-/* line 178, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+/* line 188, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
 .modal-fullscreen .close :after {
   display: block;
   font-size: 14px;
@@ -13290,12 +13365,12 @@ select.selectpicker {
   content: "ESC";
 }
 
-/* line 187, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+/* line 197, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
 .modal-backdrop.modal-backdrop-fullscreen {
   background: #ffffff;
 }
 
-/* line 190, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+/* line 200, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
 .modal-backdrop.modal-backdrop-fullscreen.in {
   opacity: 1;
   filter: alpha(opacity=1);
@@ -13303,21 +13378,21 @@ select.selectpicker {
 
 /* .modal-fullscreen size: we use Bootstrap media query breakpoints */
 @media (min-width: 768px) {
-  /* line 198, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+  /* line 208, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
   .modal-fullscreen .modal-dialog {
     width: 750px;
   }
 }
 
 @media (min-width: 992px) {
-  /* line 203, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+  /* line 213, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
   .modal-fullscreen .modal-dialog {
     width: 750px;
   }
 }
 
 @media (min-width: 1200px) {
-  /* line 208, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
+  /* line 218, D:/web-projects/Yazyk_Analytics/scss/bootstrap/_modals.scss */
   .modal-fullscreen .modal-dialog {
     width: 970px;
   }

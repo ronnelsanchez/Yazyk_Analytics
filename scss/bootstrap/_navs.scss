@@ -226,6 +226,63 @@
   }
 }
 
+
+.nav-tabs-info {
+  background: none!important;
+  color: $text-color;
+
+  
+  > li {
+    float: left;
+    // Make the list-items overlay the bottom border
+    margin-bottom: -1px;
+
+    // Actual tabs (as links)
+    > a {
+        border:none!important;
+  background: none!important;
+        color: $text-color;
+        padding: 20px 15px;
+      &:hover {
+  background: none!important;
+        border-color: $nav-tabs-link-hover-border-color $nav-tabs-link-hover-border-color $nav-tabs-border-color;
+      }
+    }
+
+    // Active state, and its :hover to override normal :hover
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: $brand-info;
+  background: none!important;
+      }
+    }
+    //Border bottom effect
+    &:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 4px;
+      width: 0px;
+      background: transparent;
+      @include transition(all .2s ease);
+    }
+    &.active:after,
+    &:hover:after,
+    &:focus:after, {
+      width: 100%;
+      background: $brand-info;
+    }
+  }
+  // pulling this in mainly for less shorthand
+  &.nav-justified {
+    @extend .nav-justified;
+    @extend .nav-tabs-justified;
+  }
+}
+
+
 // Pills
 // -------------------------
 .nav-pills {
@@ -329,6 +386,15 @@
   }
 }
 
+
+//Nav Tab Center
+.nav-tabs-center{
+  text-align: center;
+  >li{
+    float: none;
+    display: inline-block;
+  }
+}
 
 // Tabbable tabs
 // -------------------------

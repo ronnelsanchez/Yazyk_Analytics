@@ -130,6 +130,16 @@
   overflow: scroll;
 }
 
+.modal-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px 0;
+    border-bottom: 1px solid #dddddd;
+    &:last-child{
+       border-bottom: none;
+    }
+}
+
 // Scale up the modal
 @media (min-width: $screen-sm-min) {
   // Automatically set modal's width for larger viewports
