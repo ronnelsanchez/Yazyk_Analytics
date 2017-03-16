@@ -18,3 +18,13 @@ $('.btn-group-tab .btn').on('click', function(e) {
     .siblings('.btn')
       .removeClass('active');
 });
+
+var nowDate = new Date();
+var today = new Date(nowDate.getFullYear(), nowDate.getMonth(), nowDate.getDate(), 0, 0, 0, 0);
+
+
+$('#dateOnNewProject').datepicker({
+    startDate: today,
+    todayHighlight: true,
+    toggleActive: true
+});

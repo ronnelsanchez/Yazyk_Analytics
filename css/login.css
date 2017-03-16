@@ -1,7 +1,9 @@
 html,body,.container-fluid,.row, .row>div{
 	height: 100%;
 }
-
+body{
+ background-color: #ffffff!important;
+}
 #promo{
     background-position: center center;
     background-repeat: no-repeat;
